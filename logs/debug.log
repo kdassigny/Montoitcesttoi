@@ -1,0 +1,1913 @@
+2016-09-03 09:54:34 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\News\index.ctp, line 167]
+Request URL: /news
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\News\index.ctp, line 167
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-05 09:54:03 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$title in [C:\wamp64\www\MTCT\src\Template\News\index.ctp, line 148]
+Request URL: /news
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\News\index.ctp, line 148
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 09:17:19 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\src\Template\Layout\default.ctp, line 155]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Layout\default.ctp, line 155
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 635
+Cake\View\View::render() - CORE\src\View\View.php, line 593
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:40:55 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 158]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 158
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:42:57 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:42:57 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 158]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 158
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:44:06 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:44:38 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:47:07 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:47:18 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 13:49:00 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 117]
+Request URL: /adoption/profil/1
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 117
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 14:02:37 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 28]
+Request URL: /adoption/profil/3
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-08 14:02:37 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\view.ctp, line 28]
+Request URL: /adoption/profil/3
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\view.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:15:55 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 87]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 87
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:15:55 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 87]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 87
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:17:25 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 87]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 87
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:17:25 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 87]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 87
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:18:08 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 86]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 86
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:18:08 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 86]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 86
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:51:15 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 73]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 73
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:51:15 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 73]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 73
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:51:20 Notice: Notice (8): Undefined offset: 0 in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 73]
+Request URL: /adoption?sort=arrived&direction=asc
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 73
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-12 12:51:20 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 73]
+Request URL: /adoption?sort=arrived&direction=asc
+Referer URL: http://mtct:8080/adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 73
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 10:15:17 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 10:20:32 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 10:23:51 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 11:23:14 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 11:24:15 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 11:24:22 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 11:29:47 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 11:29:52 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:07:20 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:15:47 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:16:09 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:17:32 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:18:56 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:19:06 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:19:19 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:26:01 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:27:07 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:41:42 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:42:32 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:44:31 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:44:39 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:47:33 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:48:40 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:49:34 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:50:06 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:50:32 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 12:53:03 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 17:29:51 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-13 17:33:07 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:34:33 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:35:36 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:35:39 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:36:56 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:37:36 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:42:43 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:44:14 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption/
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:17 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:18 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/f3decde6-2636-4e19-b249-804b2cfbeda5
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:19 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/7bca3189-5c02-465c-b4c6-94c4cfdf7592
+Referer URL: http://mtct:8080/debug_kit/toolbar/f3decde6-2636-4e19-b249-804b2cfbeda5
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:22 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/a676f7fa-437e-4d0f-a16e-78136e38f80c
+Referer URL: http://mtct:8080/debug_kit/toolbar/7bca3189-5c02-465c-b4c6-94c4cfdf7592
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:23 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/d07b55e5-21ca-481f-8013-024197e5f34c
+Referer URL: http://mtct:8080/debug_kit/toolbar/a676f7fa-437e-4d0f-a16e-78136e38f80c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:24 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/af764082-7414-4441-8ffc-60fd5416d7ca
+Referer URL: http://mtct:8080/debug_kit/toolbar/d07b55e5-21ca-481f-8013-024197e5f34c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:25 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/26680d59-b888-4c0b-8d84-02748d74d34a
+Referer URL: http://mtct:8080/debug_kit/toolbar/af764082-7414-4441-8ffc-60fd5416d7ca
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:26 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/6280f122-5b29-439a-9170-1423cd550201
+Referer URL: http://mtct:8080/debug_kit/toolbar/26680d59-b888-4c0b-8d84-02748d74d34a
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:27 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/4e991f47-f534-495d-b379-646cb87578f5
+Referer URL: http://mtct:8080/debug_kit/toolbar/6280f122-5b29-439a-9170-1423cd550201
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:28 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/3da119f6-6ec7-4c35-929c-cb27a4071d28
+Referer URL: http://mtct:8080/debug_kit/toolbar/4e991f47-f534-495d-b379-646cb87578f5
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:28 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/097ad058-4a2b-4a65-a6d3-25bde4da2b4c
+Referer URL: http://mtct:8080/debug_kit/toolbar/3da119f6-6ec7-4c35-929c-cb27a4071d28
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:30 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/67fe62b9-487b-4f1f-adfd-208253ea3391
+Referer URL: http://mtct:8080/debug_kit/toolbar/097ad058-4a2b-4a65-a6d3-25bde4da2b4c
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:31 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/f4e25539-1f0e-4278-aefd-e50889e69f10
+Referer URL: http://mtct:8080/debug_kit/toolbar/67fe62b9-487b-4f1f-adfd-208253ea3391
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:32 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/89ff70a4-61d0-4f2c-88a1-d3275e03ca23
+Referer URL: http://mtct:8080/debug_kit/toolbar/f4e25539-1f0e-4278-aefd-e50889e69f10
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:33 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/06d61c72-aaed-4810-b41c-312c25eee2cd
+Referer URL: http://mtct:8080/debug_kit/toolbar/89ff70a4-61d0-4f2c-88a1-d3275e03ca23
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:34 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/10c058ce-7406-4de4-9b84-4c1660167dd5
+Referer URL: http://mtct:8080/debug_kit/toolbar/06d61c72-aaed-4810-b41c-312c25eee2cd
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:35 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/17cdfc6a-8a22-47dc-b369-cf35d7691e44
+Referer URL: http://mtct:8080/debug_kit/toolbar/10c058ce-7406-4de4-9b84-4c1660167dd5
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:36 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/b58b991e-de6c-4978-a77c-1b5c700f0e41
+Referer URL: http://mtct:8080/debug_kit/toolbar/17cdfc6a-8a22-47dc-b369-cf35d7691e44
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:37 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/e508b080-1d74-420c-b46e-b2c310e6347f
+Referer URL: http://mtct:8080/debug_kit/toolbar/b58b991e-de6c-4978-a77c-1b5c700f0e41
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:38 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/8de1ed77-b377-4d68-957e-179b3b42a0ec
+Referer URL: http://mtct:8080/debug_kit/toolbar/e508b080-1d74-420c-b46e-b2c310e6347f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:39 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/9e5acbf8-1178-4779-a506-fe1c0c1fd67d
+Referer URL: http://mtct:8080/debug_kit/toolbar/8de1ed77-b377-4d68-957e-179b3b42a0ec
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:40 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/ecdcf217-7457-468a-8c1f-7ae6972d336b
+Referer URL: http://mtct:8080/debug_kit/toolbar/9e5acbf8-1178-4779-a506-fe1c0c1fd67d
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:41 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/eafe151d-948c-41b8-9e6f-d83302a5864e
+Referer URL: http://mtct:8080/debug_kit/toolbar/ecdcf217-7457-468a-8c1f-7ae6972d336b
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:42 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/c2c5bc51-131b-436e-91f1-abcf9d3bb339
+Referer URL: http://mtct:8080/debug_kit/toolbar/eafe151d-948c-41b8-9e6f-d83302a5864e
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:43 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/cc334ee1-4c26-436f-a396-8efd63d76a6f
+Referer URL: http://mtct:8080/debug_kit/toolbar/c2c5bc51-131b-436e-91f1-abcf9d3bb339
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:44 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/47bbb155-b759-4094-8502-d666c658d7a7
+Referer URL: http://mtct:8080/debug_kit/toolbar/cc334ee1-4c26-436f-a396-8efd63d76a6f
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:45 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/e9440d35-1121-4293-b61d-898d206640da
+Referer URL: http://mtct:8080/debug_kit/toolbar/47bbb155-b759-4094-8502-d666c658d7a7
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:46 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/f1b7be7d-431b-4ba6-a080-bfc983695e18
+Referer URL: http://mtct:8080/debug_kit/toolbar/e9440d35-1121-4293-b61d-898d206640da
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:48 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/e7abd5ee-fdb6-4d5a-963c-8e80de0b5dfc
+Referer URL: http://mtct:8080/debug_kit/toolbar/f1b7be7d-431b-4ba6-a080-bfc983695e18
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:49 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/6a03cd20-ec54-41a7-ade6-3848775372d4
+Referer URL: http://mtct:8080/debug_kit/toolbar/e7abd5ee-fdb6-4d5a-963c-8e80de0b5dfc
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:50 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/34bbe280-f6eb-495c-84dd-6d8164d83b26
+Referer URL: http://mtct:8080/debug_kit/toolbar/6a03cd20-ec54-41a7-ade6-3848775372d4
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:51 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/8114a3d9-d054-41d4-9dd6-505a6e7b8ed3
+Referer URL: http://mtct:8080/debug_kit/toolbar/34bbe280-f6eb-495c-84dd-6d8164d83b26
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:52 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/9d6f87ca-7b42-4e90-a362-b3674e8167c9
+Referer URL: http://mtct:8080/debug_kit/toolbar/8114a3d9-d054-41d4-9dd6-505a6e7b8ed3
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:53 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/2e938698-98f7-4817-9c5f-f3290876bf75
+Referer URL: http://mtct:8080/debug_kit/toolbar/9d6f87ca-7b42-4e90-a362-b3674e8167c9
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:54 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/f7e20ea4-d6ad-4b68-9218-1bfef9dcf348
+Referer URL: http://mtct:8080/debug_kit/toolbar/2e938698-98f7-4817-9c5f-f3290876bf75
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:56 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/7ebc27ec-e9b8-4ac1-b870-a794b041d34b
+Referer URL: http://mtct:8080/debug_kit/toolbar/f7e20ea4-d6ad-4b68-9218-1bfef9dcf348
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:57 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/380f5e56-599c-456d-80b3-27a3b2282a41
+Referer URL: http://mtct:8080/debug_kit/toolbar/7ebc27ec-e9b8-4ac1-b870-a794b041d34b
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:58:58 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/479696f2-e5f0-47b2-800d-df8ff3c101e5
+Referer URL: http://mtct:8080/debug_kit/toolbar/380f5e56-599c-456d-80b3-27a3b2282a41
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 09:59:00 Notice: Notice (8): Undefined variable: routes in [C:\wamp64\www\MTCT\config\routes.php, line 87]
+Request URL: /debug_kit/toolbar/04385827-5b00-4b46-922f-7ea803aa0e84
+Referer URL: http://mtct:8080/debug_kit/toolbar/479696f2-e5f0-47b2-800d-df8ff3c101e5
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - ROOT\config\routes.php, line 87
+Cake\Routing\Router::_loadRoutes() - CORE\src\Routing\Router.php, line 989
+Cake\Routing\Router::parse() - CORE\src\Routing\Router.php, line 337
+Cake\Routing\Filter\RoutingFilter::beforeDispatch() - CORE\src\Routing\Filter\RoutingFilter.php, line 55
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 425
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 386
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventDispatcherTrait.php, line 79
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:33:33 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:34:12 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:36:35 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:36:42 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:37:07 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:37:14 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:41:25 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:41:33 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:41:39 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:42:15 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:45:30 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:45:59 Notice: Notice (8): Undefined variable: date in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:49:26 Notice: Notice (8): Undefined variable: animal in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:49:26 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:51:12 Notice: Notice (8): Undefined variable: animal in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:51:12 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:51:39 Notice: Notice (8): Undefined property: Cake\ORM\ResultSet::$age in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-14 12:52:14 Notice: Notice (8): Undefined variable: age in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 9]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption/profil/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-15 14:12:12 Notice: Notice (8): Undefined variable: espece_id in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 18]
+Request URL: /adoption
+Referer URL: http://mtct:8080/users/famille
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
