@@ -23,13 +23,14 @@
                                 <div class="row">
                                     <div class="page type-page status-publish hentry work group portfolio-sticky portfolio-full-description">
 
-                                        <div class="work-thumbnail span6">
+                                        <div class="work-thumbnail span4">
                                             <div class="thumb-wrapper">
                                                 <div class="related_img">
                                                     <div class="picture_overlay">
-                                                        <img width="573" height="285"
-                                                             src="images/portfolios/0049-573x285.jpg"
-                                                             class="attachment-section_portfolio" alt="004"/>
+
+                                                        <?= $this->html->image("blog/imgbloh-365x340.jpg", [
+                                                            "class" => "attachment-section_portfolio",
+                                                            'width'=>"573", 'height'=>"285"]);?>
                                                         <div class="overlay">
                                                             <div>
                                                                 <p>
@@ -237,22 +238,6 @@
 
 
 <!-- END HEADER -->
-<script type='text/javascript' src='sliders/thumbnails/js/jquery.aw-showcase.js'></script>
-<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
-<script type='text/javascript' src='js/jquery.tweetable.js'></script>
-<script type='text/javascript' src='js/jquery.superfish.js'></script>
-<script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>
-<script type='text/javascript' src='js/jquery.tipsy.js'></script>
-<script type='text/javascript' src='js/responsive.js'></script>
-<script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
-<script type='text/javascript' src='js/shortcodes.js'></script>
-<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
-<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='js/jquery.easing.js'></script>
-<script type='text/javascript' src='sliders/elastic/js/jquery.eislideshow.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.plugins.min.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.revolution.js'></script>
-<script type='text/javascript' src='js/jquery.custom.js'></script>
 
 </body>
 </html>

@@ -88,5 +88,7 @@ Router::connect('/partenaires', ['controller' => 'Contact', 'action' => 'partner
 Router::connect('/equipe', ['controller' => 'Contact', 'action' => 'team']);
 Router::connect('/contact', ['controller' => 'Contact', 'action' => 'contact']);
 
+Router::connect('/donation', ['controller' => 'Donation', 'action' => 'index']);
+
 Router::connect('/adoption', ['controller' => 'Animals', 'action' => 'index'], ['_name'=>'adoption']);
 Router::connect('/adoption/profil/*', ['controller' => 'Animals', 'action' => 'view']);

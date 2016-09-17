@@ -6,7 +6,15 @@
 
 <div id="primary" class="col-9 sidebar-right">
     <div class="row">
-
+        <div class="row box-title">
+            <div class="span4 offset1">
+                <div class="border-line"></div>
+            </div>
+            <h3 class="span2 " >Nos animaux</h3>
+            <div class="span4">
+                <div class="border-line"></div>
+            </div>
+        </div>
         <!-- START SIDEBAR -->
         <div id="sidebar-blog-sidebar" class="span4 sidebar group">
             <div id="text-9" class="widget-first widget widget_text">

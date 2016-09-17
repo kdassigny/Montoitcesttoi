@@ -23,7 +23,10 @@ class AnimalsController extends AppController
         ];
         $animals = $this->paginate($this->Animals);
 
+        $especes = $this->Animals->Especes->find('list',['keyField'=>'id','valueField'=>'espece_name']);
+
         $this->set(compact('animals'));
+        $this->set(compact('especes'));
         $this->set('_serialize', ['animals']);
     }
 
