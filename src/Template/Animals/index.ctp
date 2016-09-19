@@ -7,7 +7,7 @@
 <div id="primary" class="col-9 sidebar-right">
     <div class="row">
         <div class="row box-title">
-            <div class="span4 offset1">
+            <div class="span4 offset2">
                 <div class="border-line"></div>
             </div>
             <h3 class="span2 " >Nos animaux</h3>
@@ -19,10 +19,23 @@
         <div id="sidebar-blog-sidebar" class="span4 sidebar group">
             <div id="text-9" class="widget-first widget widget_text">
                 <h3>Recherche</h3>
-                <ul>
-                    <li><?= $this->paginator->sort('age', 'trier par age');?></li>
-                    <li><?= $this->paginator->sort('arrived', 'trier par date d\'arrivé');?></li>
-                </ul>
+                <form>
+                    <ul>
+                        <li><input type="checkbox" name="espece_id" value="1">Chiens</li>
+                        <li><input type="checkbox" name="espece_id" value="2">Chats</li>
+                        <li><input type="checkbox" name="espece_id" value="3,4,5">Autres</li>
+                    </ul>
+                    <ul>
+                        <li><input type="checkbox" name="sexe" value="1">Mâles</li>
+                        <li><input type="checkbox" name="sexe" value="0">Femelles</li>
+                    </ul>
+                    <input type="checkbox" name="categorie_id" value="1">Adoptables
+                    <ul>
+                        <li><?= $this->paginator->sort('age', 'trier par age'); ?></li>
+                        <li><?= $this->paginator->sort('arrived', 'trier par date d\'arrivé'); ?></li>
+                    </ul>
+                    <input type="button" value="submit">
+                </form>
                 <?= $this->Form->input('espece_id');?>
             </div>
         </div>

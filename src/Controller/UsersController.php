@@ -7,6 +7,7 @@ use App\Controller\AppController;
  * Users Controller
  *
  * @property \App\Model\Table\UsersTable $Users
+ * @property \App\Model\Table\AddressesTable $Addresses
  */
 class UsersController extends AppController
 {
@@ -51,9 +52,15 @@ class UsersController extends AppController
      */
     public function add()
     {
-        $user = $this->Users->newEntity();
+
+        $user = $this->Users->newEntity($this->request->data, [
+            'associated' => [
+                'Addresses']
+        ]);
         if ($this->request->is('post')) {
-            $user = $this->Users->patchEntity($user, $this->request->data);
+            $user = $this->Users->patchEntity($user, $this->request->data, [
+                'associated' => [
+                    'Addresses']]);
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
 
@@ -62,9 +69,10 @@ class UsersController extends AppController
                 $this->Flash->error(__('The user could not be saved. Please, try again.'));
             }
         }
+        $host_famillies = $this->Users->HostFamilies->find('list', ['limit' => 200]);
         $addresses = $this->Users->Addresses->find('list', ['limit' => 200]);
         $images = $this->Users->Images->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'addresses', 'images'));
+        $this->set(compact('user', 'addresses', 'images', 'host_famillies'));
         $this->set('_serialize', ['user']);
     }
 
@@ -115,7 +123,9 @@ class UsersController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
-    public function famille(){
+
+    public function famille()
+    {
 
     }
 }

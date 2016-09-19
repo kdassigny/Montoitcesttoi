@@ -1,36 +1,27 @@
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Addresses'), ['controller' => 'Addresses', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Address'), ['controller' => 'Addresses', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Images'), ['controller' => 'Images', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Image'), ['controller' => 'Images', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Host Families'), ['controller' => 'HostFamilies', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Host Family'), ['controller' => 'HostFamilies', 'action' => 'add']) ?></li>
-    </ul>
-</nav>
-<div class="users form large-9 medium-8 columns content">
+<div class="row">
+    <div class="col-10 offset1">
+        <div class="users form large-9 medium-8 columns content">
     <?= $this->Form->create($user) ?>
     <fieldset>
-        <legend><?= __('Add User') ?></legend>
+        <legend><?= __('Inscrivez-vous') ?></legend>
         <?php
-            echo $this->Form->input('email');
-            echo $this->Form->input('password');
-            echo $this->Form->input('username');
-            echo $this->Form->input('fisrt_name');
-            echo $this->Form->input('last_name');
-            echo $this->Form->input('is_admin');
-            echo $this->Form->input('is_adherant');
-            echo $this->Form->input('address_id', ['options' => $addresses]);
+        echo $this->Form->input('email', ["label" => "Adress Email"]);
+        echo $this->Form->input('username', ["label" => "Nom d'utilisateur"]);
+        echo $this->Form->input('fisrt_name', ["label" => "Prenom"]);
+        echo $this->Form->input('last_name', ["label" => "Nom"]);
+        echo $this->Form->hidden('is_admin', ['value' => '0']);
+        echo $this->Form->hidden('is_adherant', ['value' => '0']);
+        echo $this->Form->input('address.address', ['type' => 'text', "label" => "Adresse"]);
+        echo $this->Form->input('address.city', ["label" => "Ville"]);
+        echo $this->Form->input('address.city_zip_code', ["label" => "Code postal"]);
             echo $this->Form->input('telephone_portable');
             echo $this->Form->input('telephone_fixe');
             echo $this->Form->input('facebook');
-            echo $this->Form->input('postion');
-            echo $this->Form->input('description');
-            echo $this->Form->input('image_id', ['options' => $images, 'empty' => true]);
+
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
     <?= $this->Form->end() ?>
+</div>
+    </div>
 </div>

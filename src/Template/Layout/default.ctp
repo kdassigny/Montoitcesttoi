@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,8 +21,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes"/>
     <title>
-        <?= $cakeDescription ?>:
-        <?= $this->fetch('title') ?>
+        Mon toit c'est toi
     </title>
 
 
@@ -284,9 +283,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                     <div class="widget span2 contact-info">
                         <div class="sidebar-nav">
                             <ul>
-                                <li><a href="#">Accueil</a></li>
-                                <li><a href="#">Adoption</a></li>
-                                <li><a href="#">Famille d'accueil</a></li>
+                                <li><?= $this->html->link('Accueil', ['controller' => 'News',
+                                        'action' => 'index'
+                                    ]); ?></li>
+                                <li><?= $this->html->link('Adoption', ['controller' => 'Animals',
+                                        'action' => 'index'
+                                    ]); ?></li>
+                                <li><?= $this->html->link('Famille d\'accueil', ['controller' => 'Users',
+                                        'action' => 'famille'
+                                    ]); ?></li>
                             </ul>
                         </div>
                     </div>

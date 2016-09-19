@@ -1,14 +1,6 @@
 
 
-        <!-- START CONTENT -->
-        <div id="page-meta" class="container">
-            <!-- SLOGAN -->
-            <div class="slogan">
-                <h2>Famille d'accueil</h2>
-                <h3>vous aussi offrez leur un toit</h3>
-            </div>
-        </div>
-        <!-- END PAGE META -->
+
 
         <!-- START PRIMARY -->
         <div id="primary" class="sidebar-no">
@@ -16,6 +8,17 @@
                 <div class="row">
                     <!-- START CONTENT -->
                     <div id="content-home" class="span12 content group">
+
+                        <div class="row box-title">
+                            <div class="span4 offset1">
+                                <div class="border-line"></div>
+                            </div>
+                            <h3 class="span2 ">Famille d'accueil</h3>
+                            <div class="span4">
+                                <div class="border-line"></div>
+                            </div>
+                        </div>
+
                         <div class="page type-page status-publish hentry group">
                             <div class="section portfolio">
                                 <!-- section blog wrapper -->
@@ -35,7 +38,7 @@
                                                         <div class="overlay">
                                                             <div>
                                                                 <p>
-                                                                    <a href="mes_images/Logo_MTCT_black.png" rel="lightbox"
+                                                                    <a href="images/portfolios/0411.jpg" rel="lightbox"
                                                                        class="ch-info-lightbox">
                                                                         <?= $this->html->image("icons/zoom.png", [
                                                                             'alt'=>"Open Lightbox"]);?>

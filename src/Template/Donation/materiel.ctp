@@ -1,13 +1,5 @@
 
-        <!-- START CONTENT -->
-        <div id="page-meta" class="container">
-            <!-- SLOGAN -->
-            <div class="slogan">
-                <h2>Dont de materiel</h2>
-                <h3>(et autre)</h3>
-            </div>
-        </div>
-        <!-- END PAGE META -->
+
 
         <!-- START PRIMARY -->
         <div id="primary" class="sidebar-no">
@@ -15,6 +7,17 @@
                 <div class="row">
                     <!-- START CONTENT -->
                     <div id="content-home" class="span12 content group">
+
+                        <div class="row box-title">
+                            <div class="span4 offset1">
+                                <div class="border-line"></div>
+                            </div>
+                            <h3 class="span2 ">Dont de materiel (et autre)</h3>
+                            <div class="span4">
+                                <div class="border-line"></div>
+                            </div>
+                        </div>
+
                         <div class="page type-page status-publish hentry group">
                             <div class="section portfolio">
                                 <!-- section blog wrapper -->

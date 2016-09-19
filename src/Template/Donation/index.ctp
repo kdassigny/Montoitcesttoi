@@ -4,6 +4,16 @@
             <!-- START CONTENT -->
             <div id="content-page" class="span12 content group">
 
+                <div class="row box-title">
+                    <div class="span4 offset1">
+                        <div class="border-line"></div>
+                    </div>
+                    <h3 class="span2 ">Nous donner un coup de pouce</h3>
+                    <div class="span4">
+                        <div class="border-line"></div>
+                    </div>
+                </div>
+
                 <div class="clear"></div>
                 <div class="posts">
 
@@ -82,7 +92,7 @@
                                     <h3><?= $this->html->image("icons/set_icons/label32.png", [
                                         "alt" => "adhérant"]);?></h3>
 
-                                    <p class="button signup"><a href="#">Voir</a></p>
+                                    <p class="button signup"><?= $this->html->link('voir', ['controller' => 'donation', 'action' => 'adherant']); ?></p>
                                 </div>
                                 <div class="pricing_box  radius-right">
                                     <div class="header">
@@ -99,7 +109,7 @@
                                     <h3><?= $this->html->image("icons/set_icons/gift32.png", [
                                         "alt" => "dont"]);?></h3>
 
-                                    <p class="button signup"><a href="#">Voir</a></p>
+                                    <p class="button signup"><?= $this->html->link('voir', ['controller' => 'donation', 'action' => 'dont']); ?></p>
                                 </div>
                             </div>
                             <!--end 3colulmns donation-->

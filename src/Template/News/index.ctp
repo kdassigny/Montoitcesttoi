@@ -175,20 +175,7 @@
                                             'width'=>"258",
                                             'height'=>"170"
                                         ]);?>
-                                        <div class="overlay">
-                                            <div>
-                                                <p>
-                                                    <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
-                                                        <img src="images/icons/zoom.png" alt="Open Lightbox" />
-                                                    </a>
-                                                    <a href="#">
-                                                        <img src="images/icons/project.png" alt="" />
-                                                    </a>
-                                                </p>
-                                                <p class="title"><?= $news->title?></p>
-                                                <p class="subtitle">photoshop</p>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="work-description">
@@ -317,7 +304,7 @@
                         });
                     </script>
                 </div>
-
+                <br>
                 <!--ASIDE LAST ANIMAL-->
                 <div id="popular-posts-5" class="widget-2 widget-last widget popular-posts">
                     <h3>Nos derniers arrivants</h3>
@@ -337,7 +324,7 @@
                             </div>
                             <div class="text">
                                 <a href="#" title="Another theme by YIThemes!" class="title">
-                                   <?= h($lasts->animal_name)?>
+                                    <?= $this->html->link(h($lasts->animal_name), ['controller' => 'animals', 'action' => 'view', $lasts->id]); ?>
                                 </a>
                                 <p class="post-date"><?=h($lasts->race)?></p></div>
                         </div>

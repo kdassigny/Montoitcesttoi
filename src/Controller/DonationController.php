@@ -22,4 +22,14 @@ class DonationController extends AppController{
     public function materiel(){
 
     }
+
+    public function adherant()
+    {
+
+    }
+
+    public function dont()
+    {
+
+    }
 }
