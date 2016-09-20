@@ -62,11 +62,11 @@ class UsersController extends AppController
                 'associated' => [
                     'Addresses']]);
             if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+                $this->Flash->success(__('Vos données on été sauvegardées'));
 
                 return $this->redirect(['action' => 'index']);
             } else {
-                $this->Flash->error(__('The user could not be saved. Please, try again.'));
+                $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
             }
         }
         $host_famillies = $this->Users->HostFamilies->find('list', ['limit' => 200]);

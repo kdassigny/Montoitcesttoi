@@ -34,6 +34,7 @@
 
 
     <?= $this->Html->css('custom'); ?>
+
     <link rel='stylesheet' id='google-fonts-css'
           href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez'
           type='text/css' media='all'/>
@@ -278,7 +279,7 @@
     <div id="footer">
         <div class="container">
             <div class="row">
-                <div>
+                <div class="col-12">
 <!--                    sart like feed-->
                     <div class="widget span2 contact-info">
                         <div class="sidebar-nav">
