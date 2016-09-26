@@ -17,9 +17,9 @@ use Cake\ORM\Entity;
  * @property bool $kitten
  * @property bool $rodent
  * @property bool $nac
- * @property bool $poultry
+ * @property bool $bird
  * @property int $animal_numbre
- * @property bool $house
+ * @property string $habitaion
  * @property string $garden
  * @property bool $cloture
  * @property bool $securised
@@ -30,7 +30,7 @@ use Cake\ORM\Entity;
  * @property string $place_animal
  * @property string $activity
  * @property string $disponibility
- * @property bool $veterinary_access
+ * @property bool $veterinary
  * @property bool $quarantine
  * @property string $note
  * @property \Cake\I18n\Time $created

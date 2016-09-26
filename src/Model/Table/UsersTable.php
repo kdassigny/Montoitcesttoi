@@ -111,6 +111,7 @@ class UsersTable extends Table
             ->allowEmpty('description');
 
         return $validator;
+
     }
 
     /**

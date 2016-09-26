@@ -145,7 +145,7 @@
                                 <div class="span5">
                                     <div class="work-description">
                                         <h2>
-                                                Bienvenu
+                                            Bienvenue
                                         </h2>
                                         <p>
                                             MTCT est une association de protection animale située en Isère.

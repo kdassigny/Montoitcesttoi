@@ -36,7 +36,6 @@
                     </ul>
                     <input type="button" value="submit">
                 </form>
-                <?= $this->Form->input('espece_id');?>
             </div>
         </div>
         <!-- END SIDEBAR -->

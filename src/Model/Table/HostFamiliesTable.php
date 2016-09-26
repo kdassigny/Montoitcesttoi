@@ -103,9 +103,9 @@ class HostFamiliesTable extends Table
             ->notEmpty('nac');
 
         $validator
-            ->boolean('poultry')
-            ->requirePresence('poultry', 'create')
-            ->notEmpty('poultry');
+            ->boolean('bird')
+            ->requirePresence('bird', 'create')
+            ->notEmpty('bird');
 
         $validator
             ->integer('animal_numbre')
@@ -113,9 +113,8 @@ class HostFamiliesTable extends Table
             ->notEmpty('animal_numbre');
 
         $validator
-            ->boolean('house')
-            ->requirePresence('house', 'create')
-            ->notEmpty('house');
+            ->requirePresence('habitation', 'create')
+            ->notEmpty('habitation');
 
         $validator
             ->requirePresence('garden', 'create')
@@ -164,9 +163,9 @@ class HostFamiliesTable extends Table
             ->notEmpty('disponibility');
 
         $validator
-            ->boolean('veterinary_access')
-            ->requirePresence('veterinary_access', 'create')
-            ->notEmpty('veterinary_access');
+            ->boolean('veterinary')
+            ->requirePresence('veterinary', 'create')
+            ->notEmpty('veterinary');
 
         $validator
             ->boolean('quarantine')

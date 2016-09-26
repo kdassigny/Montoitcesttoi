@@ -12,12 +12,34 @@ use App\Controller\AppController;
 class UsersController extends AppController
 {
 
+//    public function beforeFilter(Event $event)
+//    {
+//        parent::beforeFilter($event);
+//        $this->Auth->allow('add');
+//    }
     /**
      * Index method
      *
      * @return \Cake\Network\Response|null
      */
-    public function index()
+    public function login()
+    {
+        if ($this->request->is('post')) {
+            $user = $this->Auth->identify();
+            if ($user) {
+                $this->Auth->setUser($user);
+                return $this->redirect($this->Auth->redirectUrl());
+            }
+            $this->Flash->error(__('Authentification invalid'));
+        }
+    }
+
+    public function logout()
+    {
+        return $this->redirect($this->Auth->logout());
+    }
+
+    public function famille()
     {
         $this->paginate = [
             'contain' => ['Addresses', 'Images']
@@ -124,8 +146,35 @@ class UsersController extends AppController
         return $this->redirect(['action' => 'index']);
     }
 
-    public function famille()
+    public function admin()
     {
+
+    }
+
+    public function adminadd()
+    {
+
+        $user = $this->Users->newEntity($this->request->data, [
+            'associated' => [
+                'Addresses']
+        ]);
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->data, [
+                'associated' => [
+                    'Addresses']]);
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('Vos données on été sauvegardées'));
+
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
+            }
+        }
+        $host_famillies = $this->Users->HostFamilies->find('list', ['limit' => 200]);
+        $addresses = $this->Users->Addresses->find('list', ['limit' => 200]);
+        $images = $this->Users->Images->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'addresses', 'images', 'host_famillies'));
+        $this->set('_serialize', ['user']);
 
     }
 }

@@ -5,7 +5,7 @@
  */ 
  
 // email
-define('TO_EMAIL', 'myemail@mydomain.com');
+define('TO_EMAIL', 'wolf.6993@hotmail.fr');
 define('FROM_EMAIL', 'info@test.com');
 define('FROM_NAME', 'Test'); 
 
