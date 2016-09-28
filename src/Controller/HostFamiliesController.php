@@ -52,33 +52,34 @@ class HostFamiliesController extends AppController
      */
     public function add()
     {
-//        $hostFamily = $this->HostFamilies->newEntity();
-//        if ($this->request->is('post')) {
-//            $hostFamily = $this->HostFamilies->patchEntity($hostFamily, $this->request->data);
-//            if ($this->HostFamilies->save($hostFamily)) {
-//                $this->Flash->success(__('The host family has been saved.'));
-//
-//                $this->request->session()->delete('Flash');
-//                $id = $hostFamily->id;
-//                $hostFamily = $this->HostFamilies->get($id, [
-//                    'contain' => ['Users']
-//                ]);
-////                $email = new Email('InfoFA');
-////                $email->viewVars([$hostFamily]);
-////                $email->from(['account@MTCT.fr' => 'MTCT'])
-////                    ->to('wolf.6993@hotmail.fr')
-////                    ->subject('Nouvelle candidature pour devenir FA')
-////                    ->send();
-//
-//
-//                return $this->redirect(['action' => 'index']);
-//            } else {
-//                $this->Flash->error(__('The host family could not be saved. Please, try again.'));
-//            }
-//        }
-//        $users = $this->HostFamilies->Users->find('list', ['limit' => 200]);
-//        $this->set(compact('hostFamily', 'users'));
-//        $this->set('_serialize', ['hostFamily']);
+        $hostFamily = $this->HostFamilies->newEntity();
+        if ($this->request->is('post')) {
+            $hostFamily = $this->HostFamilies->patchEntity($hostFamily, $this->request->data);
+            if ($this->HostFamilies->save($hostFamily)) {
+                $this->Flash->success(__('The host family has been saved.'));
+
+                $this->request->session()->delete('Flash');
+                $id = $hostFamily->id;
+                $hostFamily = $this->HostFamilies->get($id, [
+                    'contain' => ['Users']
+                ]);
+
+                $email = new Email('InfoFA');
+                $email->viewVars([$hostFamily]);
+                $email->from(['account@MTCT.fr' => 'MTCT'])
+                    ->to('wolf.6993@hotmail.fr')
+                    ->subject('Nouvelle candidature pour devenir FA')
+                    ->send($this->request->data[id]);
+
+
+                return $this->redirect(['action' => 'index']);
+            } else {
+                $this->Flash->error(__('The host family could not be saved. Please, try again.'));
+            }
+        }
+        $users = $this->HostFamilies->Users->find('list', ['limit' => 200]);
+        $this->set(compact('hostFamily', 'users'));
+        $this->set('_serialize', ['hostFamily']);
     }
 
     /**
