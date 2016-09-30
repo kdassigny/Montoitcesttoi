@@ -2372,3 +2372,534 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 
 
+2016-09-30 09:59:52 Notice: Notice (8): Undefined index: espece_id in [C:\wamp64\www\MTCT\src\Controller\AnimalsController.php, line 24]
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AnimalsController::index() - APP/Controller\AnimalsController.php, line 24
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:34:32 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 64]
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:34:32 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 69]
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:36:59 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 64]
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:36:59 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 69]
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:37:16 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 64]
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 10:37:16 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 69]
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 11:29:14 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 64]
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 64
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 11:29:14 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 69]
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 69
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 12:24:43 Notice: Notice (8): Undefined variable: animals in [C:\wamp64\www\MTCT\src\Controller\AnimalsController.php, line 34]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AnimalsController::index() - APP/Controller\AnimalsController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 12:59:55 Notice: Notice (8): Undefined variable: animals in [C:\wamp64\www\MTCT\src\Controller\AnimalsController.php, line 34]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AnimalsController::index() - APP/Controller\AnimalsController.php, line 34
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined variable: animals in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 23]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 23
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined variable: animals in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 61]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 61
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: pageCount in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 685]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::numbers() - CORE\src\View\Helper\PaginatorHelper.php, line 685
+include - APP/Template\Animals\index.ctp, line 140
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: pageCount in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 603]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 603
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 607]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 607
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: perPage in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 610]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 610
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 611]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 611
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 612]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 612
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: page in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 625]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 625
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: current in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 627]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 627
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:32 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 628]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 628
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:51 Notice: Notice (8): Undefined variable: animals in [C:\wamp64\www\MTCT\src\Controller\AnimalsController.php, line 35]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AnimalsController::index() - APP/Controller\AnimalsController.php, line 35
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:14 Notice: Notice (8): Trying to get property of non-object in [C:\wamp64\www\MTCT\src\Controller\AnimalsController.php, line 35]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+App\Controller\AnimalsController::index() - APP/Controller\AnimalsController.php, line 35
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 435
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 115
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: pageCount in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 685]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::numbers() - CORE\src\View\Helper\PaginatorHelper.php, line 685
+include - APP/Template\Animals\index.ctp, line 140
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: pageCount in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 603]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 603
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 607]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 607
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: perPage in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 610]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 610
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 611]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 611
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 612]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 612
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: page in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 625]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 625
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: current in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 627]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 627
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:15 Notice: Notice (8): Undefined index: count in [C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\PaginatorHelper.php, line 628]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper\PaginatorHelper::counter() - CORE\src\View\Helper\PaginatorHelper.php, line 628
+include - APP/Template\Animals\index.ctp, line 143
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+

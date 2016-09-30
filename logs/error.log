@@ -60781,3 +60781,2715 @@ Stack Trace:
 #1 {main}
 
 
+2016-09-30 08:43:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/t%C3%A9l%C3%A9chargement.jpg
+Referer URL: http://mtct:8080/
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:43:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/slider-arrow-testimonial.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:43:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ce284d98-b175-4167-b1e7-eff5dd2d1559
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:46:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/2075c9cd-0c57-438b-85ce-daf4563d91fd
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:46:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/6a6f5917-0164-4b40-8880-7e5faa884a42
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:50:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /webroot/contact-error.html
+Referer URL: http://mtct:8080/contact
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:50:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/fa09f249-0608-41ef-be45-a66417685346
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:55:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Img could not be found.
+Exception Attributes: array (
+  'class' => 'Img',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /img/t%C3%A9l%C3%A9chargement.jpg
+Referer URL: http://mtct:8080/
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:55:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/slider-arrow-testimonial.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:55:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/bf6a16b0-07af-403a-b53e-9dbbad23c4e7
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:55:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 08:55:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/937278b5-0b73-4a30-b8e6-7f68a2a7b188
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:31:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:31:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/48d95ed7-155c-4e28-a5a2-941cbeb8e3d7
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:37:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:37:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/2455e372-bc11-4e9d-a8dc-55d09f9bb3db
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:39:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:39:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/abf834b7-0ce1-424b-848b-a4f63dffdf1e
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:40:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:40:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/1c52bd85-4a77-4a5c-ba9a-2e489001d505
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:40:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:40:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ac4340c7-eada-44a0-aeb9-36886897d8ed
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:43:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:43:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/af175699-7fd6-4e97-a6f7-78a0abae6165
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:43:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:43:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/3ff9255b-636b-423d-ba44-f5e35781277a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:46:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:46:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/56983fdb-1d00-4f70-8d6a-6b8c32558ddc
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:47:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:47:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/95aedd92-0dac-4a8b-bf42-5adf721d2796
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:47:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:47:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/48758928-940a-46d8-b7d9-5feab841bbfb
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ac488e1d-d7db-4180-b581-a06fbc657a3e
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/fd7e5ed6-998b-4566-ae2e-fa67c10f9b4a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:57:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/39e92537-ab2c-4c9d-b614-6e9399b77410
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:59:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 09:59:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/28051225-b9d8-451f-9430-8bdb37977aaf
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:32:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:32:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/413fd394-384c-4fcf-b495-c11020e6919b
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:34:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:34:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:34:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/6cf06de2-bb8f-4a91-ae7a-295d9a412625
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:35:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 10:35:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/2b3b4d44-8413-4acb-9326-1b5976379cda
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/c9ac36e1-6c7e-4d0a-a28b-029fbe62ea4b
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/
+Referer URL: http://mtct:8080/adoption?espece_id=2&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 10:37:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/1cef3185-0374-48db-95d9-31a23ae4fba0
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:23:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:23:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/a29be750-a403-4851-9d4a-5a600bc38bdf
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:24:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:24:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/545a46b7-6ad4-4fa3-b7f5-02ee8e3d74f6
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:26:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:26:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/d2dd2523-1951-43b8-9f48-843d0ad2d12a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:26:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=1&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption?espece_id=1&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:26:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/c9ac36e1-6c7e-4d0a-a28b-029fbe62ea4b
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:26:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption
+Referer URL: http://mtct:8080/
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:26:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/95aedd92-0dac-4a8b-bf42-5adf721d2796
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:26:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:26:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/afc0ca64-175a-440c-aeb7-70783fd90fe6
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:27:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:27:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/4335dfba-145d-4a09-9c48-1ef8da0a7d39
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:27:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:27:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/6043e716-5ad2-4144-823f-162ab43f1164
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:27:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:27:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/5d744a01-7b8f-4cfe-a1d6-bf83ceac8aa0
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:28:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Champ 'espece_id' inconnu dans where clause
+Request URL: /adoption?espece_id=2&sexe=1&categorie_id=1
+Referer URL: http://mtct:8080/adoption
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(172): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(56): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Connection.php(276): Cake\Database\Log\LoggingStatement->execute()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Query.php(189): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(954): Cake\Database\Query->execute()
+#6 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(277): Cake\ORM\Query->_execute()
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Query.php(902): Cake\ORM\Query->_all()
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(133): Cake\ORM\Query->all()
+#9 [internal function]: Cake\ORM\Query->getIterator()
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Collection\Collection.php(50): IteratorIterator->__construct(Object(Cake\ORM\Query))
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(267): Cake\Collection\Collection->__construct(Object(Cake\ORM\Query))
+#12 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(2592): Cake\View\Helper\FormHelper->Cake\View\Helper\{closure}(Object(Cake\Network\Request), Array)
+#13 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\Helper\FormHelper.php(350): Cake\View\Helper\FormHelper->_getContext(Array)
+#14 C:\wamp64\www\MTCT\src\Template\Animals\index.ctp(23): Cake\View\Helper\FormHelper->create(Object(Cake\ORM\Query), Array)
+#15 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(1005): include('C:\\wamp64\\www\\M...')
+#16 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(964): Cake\View\View->_evaluate('C:\\wamp64\\www\\M...', Array)
+#17 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\View\View.php(588): Cake\View\View->_render('C:\\wamp64\\www\\M...')
+#18 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#19 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(121): Cake\Controller\Controller->render()
+#20 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#21 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-09-30 11:28:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/83f3ca27-6ad0-4a10-b20a-ad22ca08e51a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:29:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Images could not be found.
+Exception Attributes: array (
+  'class' => 'Images',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /images/
+Referer URL: http://mtct:8080/adoption?espece_id=2&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:29:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:29:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ba833253-22e6-4b6c-9f6d-5023b3e6c942
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:30:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:30:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/39142e0d-cb68-4847-be23-72cabac75446
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:30:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:31:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:31:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/bfe57420-f25b-477c-ab8d-9ee86d5d0a1c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:31:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:31:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/94833b20-4b3b-4b2e-b31c-e15ce1c36603
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:32:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:32:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/6769c335-ea2b-4f07-b42c-3b415fca9a02
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:38:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:38:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/d8d9a39a-1d95-420f-be64-f6466c602dc0
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:39:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:39:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/9513dac8-741a-4761-b006-0ac2edf7e7f7
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:40:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:41:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 11:41:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/87f3994d-4711-4756-9218-be1dea126419
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:10:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:10:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/2b63b8ee-3726-4b33-96a1-545c32b58006
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:10:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:10:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/6fc84442-c6fc-4bc1-af2a-a958ad0e3997
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:13:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:13:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/9101e853-9843-4881-803b-2babca1b5115
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:13:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:13:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/1cd3fd56-b684-46b6-bdc9-8fc687e6d875
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:15:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:15:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/21155b8a-d7e6-4720-9c18-f6f1ad9cf754
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:17:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:17:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/700e9bc9-2cbf-40fa-9c64-25b51ced8bcc
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:17:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:17:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/4d3c5ebc-8abf-4353-9a80-b7af3c2abb0b
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:18:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:18:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ab0f13ef-1de0-4225-a0c8-b726abc66f71
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:20:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:20:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/8aa5ac3f-dfa9-4a2f-bdd7-660c339b6115
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:20:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:20:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/5e0ec62c-ef06-48a4-af90-09cef8618fa8
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:21:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:21:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/417935e9-04d6-4b92-ae85-86560ef87ff4
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/90c7a068-598d-46ef-94b3-e531b9491f30
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/8e2ca9a5-6a70-42af-ad20-1c5c9521f5b3
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:24:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/b6fb403f-3887-480f-b99a-365d7a51c96f
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:56:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:56:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/05713630-2801-4da7-95fe-b183dde01942
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:57:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:57:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/ddcac187-f6e1-4c35-bc17-1218c9af6641
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:59:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:59:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/0e8d756f-cc53-4a1d-88b4-44881302a14c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:59:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 12:59:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/fb519780-b767-48d1-9b2e-b93e7c73b2a1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:08:32 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 61]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 61
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:08:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:08:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/a5291419-bbb3-49a7-8dd2-2fb4032c457c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:08:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:08:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/99c414e0-7cbe-4e22-b382-8cb883afbe51
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:09:15 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp64\www\MTCT\src\Template\Animals\index.ctp, line 61]
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&categorie_id=1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Animals\index.ctp, line 61
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-09-30 13:09:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:09:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/121cd9df-22c5-4c70-b936-486c9b1c3ba9
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:09:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:09:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/16120464-236a-479f-acdd-a7769b5e8c21
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:10:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:10:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/82950fd7-385e-48a4-a159-29a52ac3971a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:10:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:10:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/f8c3d3b2-d31b-4f26-b675-b0a73f21a256
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:11:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:11:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/a1f585cd-e55e-4ab9-bcf8-a67f429ecd56
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:11:18 Error: [LogicException] Controller action can only return an instance of Response
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&espece_id=0&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#1 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 {main}
+
+
+2016-09-30 13:11:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/61ef5b59-d89a-48d9-9430-25364ef10099
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:12:13 Error: [LogicException] Controller action can only return an instance of Response
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&espece_id=0&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#1 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 {main}
+
+
+2016-09-30 13:12:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/0311f88e-9d5f-4a2d-ae76-65bbe8418587
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:12:55 Error: [LogicException] Controller action can only return an instance of Response
+Request URL: /adoption
+Referer URL: http://mtct:8080/adoption?espece_id=&espece_id=0&sexe=1&categorie_id=1
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(88): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\AnimalsController))
+#1 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 {main}
+
+
+2016-09-30 13:12:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/81ba792c-22fd-46f6-b974-0df07cd36df9
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/b24c9728-e305-4fc9-b882-eec95d7115fc
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/9f09cce9-6a68-472e-9333-d8ea15345c9e
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/481d9028-9a05-4805-a977-a392ec87dc7d
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/a9f023d7-4c4b-4c24-915a-b2d59fb4dc06
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:13:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/d0a35e09-5f40-4778-abb5-f06d515c7fa0
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:14:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:14:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/90370ec5-855d-4c19-96fa-8f90b16cffca
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:15:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:15:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/7bb33be2-a0f2-4916-b8df-8c86ae172777
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:15:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:15:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/4d7954ec-86a5-4b6d-b7cc-b5866872671c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:17:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:17:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/3b95f3af-094f-4731-a9f2-fa896b765a75
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:20:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:20:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:20:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/523a3b51-2535-46b8-9d5b-d0c98837ebb5
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:20:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:20:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/5f48c6f6-1d98-48af-916d-b5b2dd7d8744
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:23:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:23:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/d8a7acc5-7818-4e62-9134-aa2833e6857c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:25:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:25:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/117443ae-0b69-4c8b-b50c-5233129502a5
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:25:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:25:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/78c94702-ee92-44df-b3b1-7def68aff029
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:26:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:26:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/dedf2e87-98ae-46b4-9497-77f88b6e31b8
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:27:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:27:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/39c70502-a39c-4caa-9bea-15e95577612c
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:27:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /css/images/bg-pagination.png
+Referer URL: http://mtct:8080/css/style.css
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-09-30 13:27:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Debug_kit could not be found.
+Exception Attributes: array (
+  'class' => 'Debug_kit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /debug_kit/images/cake.icon.png
+Referer URL: http://mtct:8080/debug_kit/toolbar/1feddf1a-8203-43d3-8f1f-0b6c11aadc9a
+Stack Trace:
+#0 C:\wamp64\www\MTCT\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

@@ -32,8 +32,7 @@ class NewsController extends AppController
                                         ->orderDesc('arrived')
                                         ->limit(3);
 
-        $this->set(compact('news'));
-        $this->set(compact('last'));
+        $this->set(compact('news', 'last'));
         $this->set('_serialize', ['news']);
     }
 

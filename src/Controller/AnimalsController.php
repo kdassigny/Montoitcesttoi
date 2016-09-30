@@ -19,14 +19,25 @@ class AnimalsController extends AppController
     public function index()
     {
         $this->paginate = [
-            'contain' => ['Especes', 'Categories', 'Addresses','Images']
+            'contain' => ['Especes', 'Categories', 'Images']
         ];
-        $animals = $this->paginate($this->Animals);
+
+        //  filter animals
+        if (!isset($this->request->query) && empty($this->request->query)) {
+
+            $espece_id = $this->request->query('espece_id');
+            $animals = $this->Animals->find('all')
+                ->where(['espece_id' => $espece_id]);
+            $animals = $this->paginate($animals);
+
+        } else {
+            $animals = $this->paginate($this->Animals);
+        }
 
         $especes = $this->Animals->Especes->find('list',['keyField'=>'id','valueField'=>'espece_name']);
+        $categories = $this->Animals->Categories->find('list', ['keyField' => 'id', 'valueField' => 'categorie_name']);
 
-        $this->set(compact('animals'));
-        $this->set(compact('especes'));
+        $this->set(compact('animals', 'especes', 'categories'));
         $this->set('_serialize', ['animals']);
     }
 

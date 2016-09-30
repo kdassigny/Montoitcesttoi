@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Mailer\Email;
 /**
  * Partners Controller
  *
@@ -18,7 +19,11 @@ class ContactController extends AppController
      * @return \Cake\Network\Response|null
      */
     public function contact(){
-
+        $email = new Email('default');
+        $email->from(['me@example.com' => 'My Site'])
+            ->to('you@example.com')
+            ->subject('About')
+            ->send('My message');
     }
 
 public function partner(){
