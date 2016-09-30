@@ -23,11 +23,22 @@ class AnimalsController extends AppController
         ];
 
         //  filter animals
-        if (!isset($this->request->query) && empty($this->request->query)) {
+        if (isset($this->request->query) && !empty($this->request->query)) {
 
             $espece_id = $this->request->query('espece_id');
-            $animals = $this->Animals->find('all')
-                ->where(['espece_id' => $espece_id]);
+            $sexe = $this->request->query('sexe');
+            $categorie_id = $this->request->query('categorie_id');
+
+            $animals = $this->Animals->find('all');
+            if ($this->request->query('espece_id') != null) {
+                $animals->where(['espece_id' => $espece_id]);
+            }
+            if ($this->request->query('sexe') != null) {
+                $animals->where(['sexe' => $sexe]);
+            }
+            if ($this->request->query('categorie_id') != null) {
+                $animals->where(['categorie_id' => $categorie_id]);
+            }
             $animals = $this->paginate($animals);
 
         } else {
