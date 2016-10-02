@@ -18,11 +18,12 @@
                 <form>
                     <?= $this->Form->create($animals, ['url' => ['action' => 'index'], 'type' => 'get']); ?>
                     <?= $this->Form->input('espece_id', ['empty' => 'Tous']); ?>
-                    <ul>sexe
-                        <li><input type="checkbox" name="sexe" value="1">Mâles</li>
-                        <li><input type="checkbox" name="sexe" value="0">Femelles</li>
-                    </ul>
                     <?= $this->Form->input('categorie_id', ['empty' => 'Tous']); ?>
+                    <ul>sexe
+                        <li><input type="radio" name="sexe" value="">Tous</li>
+                        <li><input type="radio" name="sexe" value="1">Mâles</li>
+                        <li><input type="radio" name="sexe" value="0">Femelles</li>
+                    </ul>
                     <?= $this->Form->button(__('Submit')) ?>
                     <?= $this->Form->end() ?>
 

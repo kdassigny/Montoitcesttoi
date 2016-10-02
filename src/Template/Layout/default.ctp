@@ -117,25 +117,25 @@
                 </div>
             </div>
         </div>
-
-        <script>
-            jQuery(function ($) {
-                var twitterSlider = function () {
-                    $('#topbar .last-tweets ul').addClass('slides');
-                    $('#topbar .last-tweets').flexslider({
-                        animation: "fade",
-                        slideshowSpeed: 5 * 1000,
-                        animationDuration: 700,
-                        directionNav: false,
-                        controlNav: false,
-                        keyboardNav: false
-                    });
-                };
-                $('#topbar .last-tweets > div').bind('tweetable_loaded', function () {
-                    twitterSlider();
-                });
-            });
-        </script>
+        <!---->
+        <!--        <script>-->
+        <!--            jQuery(function ($) {-->
+        <!--                var twitterSlider = function () {-->
+        <!--                    $('#topbar .last-tweets ul').addClass('slides');-->
+        <!--                    $('#topbar .last-tweets').flexslider({-->
+        <!--                        animation: "fade",-->
+        <!--                        slideshowSpeed: 5 * 1000,-->
+        <!--                        animationDuration: 700,-->
+        <!--                        directionNav: false,-->
+        <!--                        controlNav: false,-->
+        <!--                        keyboardNav: false-->
+        <!--                    });-->
+        <!--                };-->
+        <!--                $('#topbar .last-tweets > div').bind('tweetable_loaded', function () {-->
+        <!--                    twitterSlider();-->
+        <!--                });-->
+        <!--            });-->
+        <!--        </script>-->
 
         <!-- END TOP BAR -->
 
@@ -235,7 +235,7 @@
                                                 </li>
                                                 <li>
                                                     <a href=<?=$this->Url->build([
-                                                        'controller' => 'Contact',
+                                                        'controller' => 'Users',
                                                         'action' => 'team'
                                                             ]);  ?>>
                                                         L'équipe
@@ -246,8 +246,8 @@
                                                 </li>
                                                 <li>
                                                     <a href=<?=$this->Url->build([
-                                                        'controller' => 'Contact',
-                                                        'action' => 'partner'
+                                                        'controller' => 'Partners',
+                                                        'action' => 'index'
                                                     ]);  ?>>
                                                         Partenaires
                                                         <div style="position:absolute; left: 50%;">
@@ -299,9 +299,15 @@
                     <div class="widget span2 contact-info">
                         <div class="sidebar-nav">
                             <ul>
-                                <li><a href="#">Dont financier</a></li>
-                                <li><a href="#">Dont materiel</a></li>
-                                <li><a href="#">Devenir adhérant</a></li>
+                                <li><?= $this->html->link('Dont financier', ['controller' => 'Donation',
+                                        'action' => 'dont'
+                                    ]); ?></li>
+                                <li><?= $this->html->link('Dont materiel', ['controller' => 'Donation',
+                                        'action' => 'materiel'
+                                    ]); ?></li>
+                                <li><?= $this->html->link('Devenir adhérant', ['controller' => 'Donation',
+                                        'action' => 'adherant'
+                                    ]); ?></li>
                             </ul>
                         </div>
                     </div>

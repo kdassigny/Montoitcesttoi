@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Users Controller
@@ -12,11 +13,11 @@ use App\Controller\AppController;
 class UsersController extends AppController
 {
 
-//    public function beforeFilter(Event $event)
-//    {
-//        parent::beforeFilter($event);
-//        $this->Auth->allow('add');
-//    }
+    public function beforeFilter(Event $event)
+    {
+        parent::beforeFilter($event);
+        $this->Auth->allow('add', 'team', 'famille');
+    }
     /**
      * Index method
      *
@@ -26,11 +27,11 @@ class UsersController extends AppController
     {
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
-            if ($user) {
+            if (isset($user['is_admin']) && $user['is_admin'] === 1) {
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
-            $this->Flash->error(__('Authentification invalid'));
+            $this->Flash->error(__('Authentification invalide'));
         }
     }
 
@@ -50,6 +51,16 @@ class UsersController extends AppController
         $this->set('_serialize', ['users']);
     }
 
+    public function team()
+    {
+        $this->paginate = [
+            'contain' => ['Addresses', 'Images']
+        ];
+        $users = $this->paginate($this->Users);
+
+        $this->set(compact('users'));
+        $this->set('_serialize', ['users']);
+    }
     /**
      * View method
      *
@@ -66,6 +77,7 @@ class UsersController extends AppController
         $this->set('user', $user);
         $this->set('_serialize', ['user']);
     }
+
 
     /**
      * Add method

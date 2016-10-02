@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Mailer\Email;
+use Cake\Event\Event;
 /**
  * Partners Controller
  *
@@ -13,6 +14,12 @@ use Cake\Mailer\Email;
 
 class ContactController extends AppController
 {
+
+    public function beforeFilter(Event $event)
+    {
+        parent::beforeFilter($event);
+        $this->Auth->allow(['contact']);
+    }
     /**
      * Index method
      *

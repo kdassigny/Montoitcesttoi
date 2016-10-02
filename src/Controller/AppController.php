@@ -54,9 +54,19 @@ class AppController extends Controller
             ]]);
     }
 
+    public function isAuthorized($user)
+    {
+
+        if (isset($user['is_admin']) && $user['is_admin'] === 1) {
+            return true;
+        }
+
+        return false;
+    }
+
     public function beforeFilter(Event $event)
     {
-        $this->Auth->allow(['index', 'view']);
+
     }
 
     /**
