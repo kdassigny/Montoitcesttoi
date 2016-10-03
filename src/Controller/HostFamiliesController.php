@@ -50,7 +50,7 @@ class HostFamiliesController extends AppController
      *
      * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
      */
-    public function add()
+    public function add($id = null)
     {
         $hostFamily = $this->HostFamilies->newEntity();
         if ($this->request->is('post')) {

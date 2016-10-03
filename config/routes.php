@@ -87,8 +87,11 @@ Router::connect('/adoption', ['controller' => 'Animals', 'action' => 'index'], [
 Router::connect('/adoption/profil/*', ['controller' => 'Animals', 'action' => 'view']);
 
 Router::connect('/donation', ['controller' => 'Donation', 'action' => 'index']);
+Router::connect('/materiel', ['controllerl' => 'Donation', 'action' => 'materiel']);
+Router::connect('/adérant', ['controller' => 'Donation', 'action' => 'adherant']);
+Router::connect('/finanacier', ['controller' => 'Donation', 'action' => 'dont']);
 
-Router::connect('/partenaires', ['controller' => 'Parrners', 'action' => 'index']);
+Router::connect('/partenaires', ['controller' => 'Partners', 'action' => 'index']);
 Router::connect('/equipe', ['controller' => 'Users', 'action' => 'team']);
 Router::connect('/contact', ['controller' => 'Contact', 'action' => 'contact']);
 

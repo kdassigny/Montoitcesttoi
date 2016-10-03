@@ -314,9 +314,18 @@
                     <div class="widget span2 contact-info">
                         <div class="sidebar-nav">
                             <ul>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">L'équipe</a></li>
-                                <li><a href="#">Partenaire</a></li>
+                                <li>
+                                    <?= $this->html->link('Contact', ['controller' => 'Contact',
+                                        'action' => 'contact'
+                                    ]); ?></li>
+                                <li>
+                                    <?= $this->html->link('L\'équipe', ['controller' => 'Users',
+                                        'action' => 'team'
+                                    ]); ?></li>
+                                <li>
+                                    <?= $this->html->link('Partenaire', ['controller' => 'Partners',
+                                        'action' => 'index'
+                                    ]); ?></li>
                             </ul>
                         </div>
                     </div>

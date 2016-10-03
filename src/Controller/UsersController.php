@@ -27,7 +27,7 @@ class UsersController extends AppController
     {
         if ($this->request->is('post')) {
             $user = $this->Auth->identify();
-            if (isset($user['is_admin']) && $user['is_admin'] === 1) {
+            if ($user) {
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl());
             }
@@ -98,7 +98,7 @@ class UsersController extends AppController
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('Vos données on été sauvegardées'));
 
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'add', $user->id]);
             } else {
                 $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
             }

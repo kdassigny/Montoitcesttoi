@@ -15,7 +15,7 @@ class DonationController extends AppController{
     public function beforeFilter(Event $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow(['index', 'dont', 'materiel', 'financier']);
+        $this->Auth->allow(['index', 'dont', 'materiel', 'adherant']);
     }
     /**
      * Index method
@@ -28,12 +28,10 @@ class DonationController extends AppController{
     public function materiel(){
 
     }
-
     public function adherant()
     {
 
     }
-
     public function dont()
     {
 

@@ -323,11 +323,10 @@
                                 ]);?>
                             </div>
                             <div class="text">
-                                <a href="#" title="Another theme by YIThemes!" class="title">
                                     <?= $this->html->link(h($lasts->animal_name), ['controller' => 'animals', 'action' => 'view', $lasts->id]); ?>
-                                </a>
                                 <p class="post-date"><?=h($lasts->race)?></p></div>
                         </div>
+
                         <?php endforeach; ?>
                     </div>
                 </div>
