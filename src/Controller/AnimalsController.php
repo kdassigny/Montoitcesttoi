@@ -8,6 +8,7 @@ use Cake\Event\Event;
  * Animals Controller
  *
  * @property \App\Model\Table\AnimalsTable $Animals
+ * @property \App\Model\Table\AdressesTable $Addresses
  */
 class AnimalsController extends AppController
 {
@@ -93,10 +94,13 @@ class AnimalsController extends AppController
                 $this->Flash->error(__('The animal could not be saved. Please, try again.'));
             }
         }
-        $especes = $this->Animals->Especes->find('list', ['limit' => 200]);
-        $categories = $this->Animals->Categories->find('list', ['limit' => 200]);
-        $addresses = $this->Animals->Addresses->find('list', ['limit' => 200]);
-        $this->set(compact('animal', 'especes', 'categories', 'addresses'));
+        $especes = $this->Animals->Especes->find('list', ['keyField' => 'id', 'valueField' => 'espece_name']);
+        $categories = $this->Animals->Categories->find('list', ['keyField' => 'id', 'valueField' => 'categorie_name']);
+        $addresses = $this->Animals->Addresses->find('list', ['keyField' => 'id', 'valueField' => 'address']);
+        $city = $this->Animals->Addresses->find('list', ['keyField' => 'id', 'valueField' => 'city']);
+        $zip = $this->Animals->Addresses->find('list', ['keyField' => 'id', 'valueField' => 'city_zip_code']);
+
+        $this->set(compact('animal', 'especes', 'categories', 'addresses', 'city', 'zip'));
         $this->set('_serialize', ['animal']);
     }
 

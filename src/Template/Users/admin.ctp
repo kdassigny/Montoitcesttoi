@@ -15,7 +15,7 @@
                 </div>
                 <ul>
                     <li><?= $this->html->link('Page d\'accueil', ['contoller' => "News", 'action' => 'index']); ?></li>
-                    <li><?= $this->html->link('Les animaux', ['contoller' => "Animals", 'action' => 'index']); ?></li>
+                    <li><?= $this->html->link('Les animaux', ['contoller' => "Animals", 'action' => 'add']); ?></li>
                     <li><?= $this->html->link('Les membres', ['contoller' => "Users", 'action' => 'index']); ?></li>
                     <li><?= $this->html->link('Les partenaires', ['contoller' => "Partners", 'action' => 'index']); ?></li>
                 </ul>

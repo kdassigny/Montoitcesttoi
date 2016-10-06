@@ -74,16 +74,63 @@
                                                     vestibulum et. Sed porttitor erosut purus elementum a consectetur
                                                     purus vulputate</p>
                                             </div>
-                                            <a href="#" class="btn   btn-identification-4" style="margin-left: 10%;margin-top: 5%;">
-                                                <i class="icon-info-sign" ></i>
-                                                Inscription
-                                            </a>
+
                                             <!-- end work-description -->
                                         </div>
                                     </div>
                                 </div>
                                 <!-- span wrapper -->
+                                <div class="row">
+                                    <div class="col-10 offset2">
+                                        <?= $this->Form->create($user) ?>
+                                        <fieldset>
 
+                                            <div class="row">
+                                                <div class="span4">
+                                                    <label>Adress Email</label>
+                                                    <?php echo $this->Form->input('email', ['type' => 'text', "label" => false]); ?>
+                                                    <label>Nom d'utilisateur</label>
+                                                    <?php echo $this->Form->input('username', ["label" => false]); ?>
+                                                </div>
+                                                <div class="span4">
+                                                    <label>Nom</label>
+                                                    <?php echo $this->Form->input('last_name', ["label" => false]); ?>
+                                                    <label>Prenom</label>
+                                                    <?php echo $this->Form->input('fisrt_name', ["label" => false]); ?>
+                                                    <label></label>
+                                                    <?php echo $this->Form->hidden('is_admin', ['value' => '0']); ?>
+                                                    <label></label>
+                                                    <?php echo $this->Form->hidden('is_adherant', ['value' => '0']); ?>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <div class="span4">
+                                                    <label>Adresse</label>
+                                                    <?php echo $this->Form->input('address.address', ['type' => 'text', "label" => false]); ?>
+                                                    <label>Ville</label>
+                                                    <?php echo $this->Form->input('address.city', ["label" => false]); ?>
+                                                    <label>Code postal</label>
+                                                    <?php echo $this->Form->input('address.city_zip_code', ['type' => 'text', "label" => false]); ?>
+                                                </div>
+                                                <div class="span4">
+                                                    <label>Telephone portable</label>
+                                                    <?php echo $this->Form->input('telephone_portable', ["label" => false]); ?>
+                                                    <label>Telephone fixe</label>
+                                                    <?php echo $this->Form->input('telephone_fixe', ["label" => false]) ?>
+                                                    <label>Facebook</label>
+                                                    <?php echo $this->Form->input('facebook', ["label" => false]); ?>
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                        <?= $this->Form->button('Valider<span class="icon tick">&nbsp;</span>', [
+                                            'type' => 'submit',
+                                            'escape' => false,
+                                            'class' => 'more-button more-button-rtl']); ?>
+                                        <?= $this->Form->end() ?>
+                                    </div>
+                                </div>
+                            </div>
 
                             </div>
                         </div>

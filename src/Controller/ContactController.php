@@ -26,9 +26,11 @@ class ContactController extends AppController
      * @return \Cake\Network\Response|null
      */
     public function contact(){
-        $email = new Email('default');
+
+        $email = new Email();
+        $email->profile('default');
         $email->from(['me@example.com' => 'My Site'])
-            ->to('you@example.com')
+            ->to('wolf.6993@hotmail.fr')
             ->subject('About')
             ->send('My message');
     }

@@ -81,10 +81,12 @@ Router::scope('/', function (RouteBuilder $routes) {
  * how to customize the loading of plugin routes.
  */
 Plugin::routes();
-Router::connect('/accueil', ['controller' => 'News', 'action' => 'index']);
+//Router::connect('/accueil', ['controller' => 'News', 'action' => 'index']);
 
 Router::connect('/adoption', ['controller' => 'Animals', 'action' => 'index'], ['_name' => 'adoption']);
 Router::connect('/adoption/profil/*', ['controller' => 'Animals', 'action' => 'view']);
+Router::connect('/', ['controller' => 'Animals', 'action' => 'add']);
+
 
 Router::connect('/donation', ['controller' => 'Donation', 'action' => 'index']);
 Router::connect('/materiel', ['controllerl' => 'Donation', 'action' => 'materiel']);
@@ -96,4 +98,17 @@ Router::connect('/equipe', ['controller' => 'Users', 'action' => 'team']);
 Router::connect('/contact', ['controller' => 'Contact', 'action' => 'contact']);
 
 Router::connect('/famille', ['controller' => 'Users', 'action' => 'famille']);
-Router::connect('/admin', ['controller' => 'Users', 'action' => 'login']);
+Router::connect('/login', ['controller' => 'Users', 'action' => 'login']);
+Router::connect('/admin', ['controller' => 'Users', 'action' => 'admin']);
+
+Router::prefix('admin', function ($routes) {
+    $routes->connect('/utilisateur/', ['controller' => 'Users', 'action' => 'index']);
+    $routes->connect('/utilisateur/ajout/', ['controller' => 'Users', 'action' => 'add']);
+    $routes->connect('/utilisateur/edit/', ['controller' => 'Users', 'action' => 'edit']);
+
+    $routes->connect('/animal/', ['controller' => 'Animals', 'action' => 'index']);
+    $routes->connect('/animal/ajout/', ['controller' => 'Animals', 'action' => 'add']);
+    $routes->connect('/animal/edit/', ['controller' => 'Animals', 'action' => 'edit']);
+
+    $routes->fallbacks(DashedRoute::class);
+});

@@ -178,18 +178,26 @@ return [
      */
     'EmailTransport' => [
         'default' => [
-            'className' => 'Mail',
+            'className' => 'Smtp',
             // The following keys are used in SMTP transports
-            'host' => 'localhost',
-            'port' => 25,
+            'host' => 'ssl://smtp.gmail.com',
+            'port' => 465,
             'timeout' => 30,
-            'username' => 'user',
-            'password' => 'secret',
+            'username' => '6993wolf@gmail.com',
+            'password' => 'wolf6993',
             'client' => null,
             'tls' => null,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
     ],
+//
+//Email::configTransport('gmail', [
+//    'host' => 'ssl://smtp.gmail.com',
+//    'port' => 465,
+//    'username' => 'wolf.6993@hotmail.fr',
+//    'password' => 'wolf6993',
+//    'className' => 'Smtp'
+//]),
 
     /**
      * Email delivery profiles
