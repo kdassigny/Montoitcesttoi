@@ -24,7 +24,6 @@
         Mon toit c'est toi
     </title>
 
-
     <!-- RESET STYLESHEET -->
     <?= $this->Html->css('reset'); ?>
     <!-- BOOTSTRAP STYLESHEET -->

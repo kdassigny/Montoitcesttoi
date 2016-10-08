@@ -92,7 +92,7 @@ class UsersTable extends Table
             ->notEmpty('is_admin');
 
         $validator
-            ->integer('is_adherant')
+            ->boolean('is_adherant')
             ->requirePresence('is_adherant', 'create')
             ->notEmpty('is_adherant');
 

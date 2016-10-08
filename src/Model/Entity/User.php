@@ -14,7 +14,7 @@ use Cake\Auth\DefaultPasswordHasher;
  * @property string $fisrt_name
  * @property string $last_name
  * @property bool $is_admin
- * @property int $is_adherant
+ * @property bool $is_adherant
  * @property int $address_id
  * @property string $telephone_portable
  * @property string $telephone_fixe
