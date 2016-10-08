@@ -5,6 +5,7 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Localized\Validation\FrValidation;
 
 /**
  * Users Model
@@ -79,11 +80,11 @@ class UsersTable extends Table
 
         $validator
             ->requirePresence('fisrt_name', 'create')
-            ->notEmpty('fisrt_name');
+            ->notEmpty('fisrt_name', 'Veuillez renseigner ce champ');
 
         $validator
             ->requirePresence('last_name', 'create')
-            ->notEmpty('last_name');
+            ->notEmpty('last_name', 'Veuillez renseigner ce champ');
 
         $validator
             ->boolean('is_admin')
@@ -95,8 +96,14 @@ class UsersTable extends Table
             ->requirePresence('is_adherant', 'create')
             ->notEmpty('is_adherant');
 
-        $validator
-            ->allowEmpty('telephone_portable');
+        $validator->provider('fr', FrValidation::class);
+        $validator->add('telephone_portable', 'myCustomRuleNameForPhone', [
+            'rule' => 'phone',
+            'provider' => 'fr'
+        ]);
+
+//        $validator
+//            ->allowEmpty('telephone_portable');
 
         $validator
             ->allowEmpty('telephone_fixe');

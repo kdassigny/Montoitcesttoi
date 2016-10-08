@@ -57,6 +57,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
 
     $routes->connect('/adoption', ['controller' => 'Animals', 'action' => 'index'], ['routeClass' => 'DashedRoute']);
+
     /**
      * Connect catchall routes for all controllers.
      *
@@ -81,11 +82,11 @@ Router::scope('/', function (RouteBuilder $routes) {
  * how to customize the loading of plugin routes.
  */
 Plugin::routes();
-//Router::connect('/accueil', ['controller' => 'News', 'action' => 'index']);
+Router::connect('/accueil', ['controller' => 'News', 'action' => 'index']);
 
 Router::connect('/adoption', ['controller' => 'Animals', 'action' => 'index'], ['_name' => 'adoption']);
 Router::connect('/adoption/profil/*', ['controller' => 'Animals', 'action' => 'view']);
-Router::connect('/', ['controller' => 'Animals', 'action' => 'add']);
+//Router::connect('/', ['controller' => 'Animals', 'action' => 'add']);
 
 
 Router::connect('/donation', ['controller' => 'Donation', 'action' => 'index']);
@@ -102,6 +103,7 @@ Router::connect('/login', ['controller' => 'Users', 'action' => 'login']);
 Router::connect('/admin', ['controller' => 'Users', 'action' => 'admin']);
 
 Router::prefix('admin', function ($routes) {
+    $routes->connect('/accueil/', ['controller' => 'Users', 'action' => 'admin']);
     $routes->connect('/utilisateur/', ['controller' => 'Users', 'action' => 'index']);
     $routes->connect('/utilisateur/ajout/', ['controller' => 'Users', 'action' => 'add']);
     $routes->connect('/utilisateur/edit/', ['controller' => 'Users', 'action' => 'edit']);

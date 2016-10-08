@@ -29,7 +29,7 @@ class ContactController extends AppController
 
         $email = new Email();
         $email->profile('default');
-        $email->from(['me@example.com' => 'My Site'])
+        $email->from(['me@example.com' => 'MTCT'])
             ->to('wolf.6993@hotmail.fr')
             ->subject('About')
             ->send('My message');

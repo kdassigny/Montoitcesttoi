@@ -221,3 +221,7 @@ Type::build('date')
     ->useImmutable();
 Type::build('datetime')
     ->useImmutable();
+
+Plugin::load('Cake/Localized');
+
+Plugin::load('Cake/Localized');

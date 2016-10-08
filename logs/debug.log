@@ -3828,3 +3828,51 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
 
 
 
+2016-10-06 11:00:46 Notice: Notice (8): Undefined variable: sexe in [C:\wamp64\www\MTCT\src\Template\Admin\Animals\add.ctp, line 19]
+Request URL: /admin/animal/ajout
+Referer URL: http://mtct:8080/admin/accueil
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Admin\Animals\add.ctp, line 19
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-10-07 10:48:09 Notice: Notice (8): Undefined variable: user in [C:\wamp64\www\MTCT\src\Template\Users\famille.ctp, line 85]
+Request URL: /famille
+Referer URL: http://mtct:8080/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Users\famille.ctp, line 85
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+
+2016-10-08 09:57:49 Notice: Notice (8): Undefined variable: user in [C:\wamp64\www\MTCT\src\Template\Users\famille.ctp, line 85]
+Request URL: /famille
+Referer URL: http://mtct:8080/finanacier
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Users\famille.ctp, line 85
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1005
+Cake\View\View::_render() - CORE\src\View\View.php, line 964
+Cake\View\View::render() - CORE\src\View\View.php, line 588
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 121
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 88
+[main] - ROOT\webroot\index.php, line 36
+
+
+

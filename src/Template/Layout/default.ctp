@@ -148,7 +148,7 @@
                         <div class="row">
                             <!-- START LOGO -->
                             <div id="logo" class="span4 group">
-                                <a id="logo-img" title="Mon toit c'est toi" href=<?=$this->Url->build([
+                                <a id="logo-img" title="Mon toit c'est toi" href=<?= $this->Url->build('/accueil', [
                                     'controller' => 'News',
                                     'action' => 'index'
                                 ]);  ?> >
@@ -168,7 +168,7 @@
                                 <div class="menu">
                                     <ul id="nav" class="sf-menu">
                                         <li class="nav-icon-hi current_page_item">
-                                            <a href=<?=$this->Url->build([
+                                            <a href=<?= $this->Url->build('/accueil', [
                                                                 'controller' => 'News',
                                                                 'action' => 'index'
                                                             ]);  ?>>
@@ -179,7 +179,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-icon-heart">
-                                            <a href=<?=$this->Url->build([
+                                            <a href=<?= $this->Url->build('/adoption', [
                                                 'controller' => 'Animals',
                                                 'action' => 'index'
                                             ]);  ?>
@@ -190,7 +190,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-icon-home">
-                                            <a href=<?=$this->Url->build([
+                                            <a href=<?= $this->Url->build('/famille', [
                                                 'controller' => 'Users',
                                                 'action' => 'famille'
                                             ]);  ?>>
@@ -201,7 +201,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-icon-gift">
-                                            <a href=<?=$this->Url->build([
+                                            <a href=<?= $this->Url->build('/donation', [
                                                 'controller' => 'Donation',
                                                 'action' => 'index'
                                             ]);  ?>>
@@ -212,7 +212,7 @@
                                             </a>
                                         </li>
                                         <li class="nav-icon-contact">
-                                            <a href=<?=$this->Url->build([
+                                            <a href=<?= $this->Url->build('/contact', [
                                                 'controller' => 'Contact',
                                                 'action' => 'contact'
                                             ]);  ?>>
@@ -223,7 +223,7 @@
                                             </a>
                                             <ul class="sub-menu">
                                                 <li>
-                                                    <a href=<?=$this->Url->build([
+                                                    <a href=<?= $this->Url->build('/contact', [
                                                         'controller' => 'Contact',
                                                         'action' => 'contact'
                                                     ]);  ?>>
@@ -234,7 +234,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href=<?=$this->Url->build([
+                                                    <a href=<?= $this->Url->build('/equipe', [
                                                         'controller' => 'Users',
                                                         'action' => 'team'
                                                             ]);  ?>>
@@ -245,7 +245,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href=<?=$this->Url->build([
+                                                    <a href=<?= $this->Url->build('/partenaires', [
                                                         'controller' => 'Partners',
                                                         'action' => 'index'
                                                     ]);  ?>>

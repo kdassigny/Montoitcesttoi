@@ -30,8 +30,9 @@ class UsersController extends AppController
             if ($user) {
                 $this->Auth->setUser($user);
                 return $this->redirect([
-                    'controller' => 'Users',
-                    'action' => 'admin']);
+                    'controller' => 'admin',
+                    'action' => 'users/admin'
+                ]);
             }
             $this->Flash->error(__('Authentification invalide'));
         }
@@ -47,10 +48,27 @@ class UsersController extends AppController
         $this->paginate = [
             'contain' => ['Addresses', 'Images']
         ];
-        $users = $this->paginate($this->Users);
+        $user = $this->Users->newEntity($this->request->data, [
+            'associated' => [
+                'Addresses']
+        ]);
+        if ($this->request->is('post')) {
+            $user = $this->Users->patchEntity($user, $this->request->data, [
+                'associated' => [
+                    'Addresses']]);
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('Vos données on été sauvegardées'));
 
-        $this->set(compact('users'));
-        $this->set('_serialize', ['users']);
+                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'add', $user->id]);
+            } else {
+                $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
+            }
+        }
+        $host_famillies = $this->Users->HostFamilies->find('list', ['limit' => 200]);
+        $addresses = $this->Users->Addresses->find('list', ['limit' => 200]);
+        $images = $this->Users->Images->find('list', ['limit' => 200]);
+        $this->set(compact('user', 'addresses', 'images', 'host_famillies'));
+        $this->set('_serialize', ['user']);
     }
 
     public function team()

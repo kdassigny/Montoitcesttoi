@@ -87,12 +87,6 @@
 
                                             <div class="row">
                                                 <div class="span4">
-                                                    <label>Adress Email</label>
-                                                    <?php echo $this->Form->input('email', ['type' => 'text', "label" => false]); ?>
-                                                    <label>Nom d'utilisateur</label>
-                                                    <?php echo $this->Form->input('username', ["label" => false]); ?>
-                                                </div>
-                                                <div class="span4">
                                                     <label>Nom</label>
                                                     <?php echo $this->Form->input('last_name', ["label" => false]); ?>
                                                     <label>Prenom</label>
@@ -101,6 +95,11 @@
                                                     <?php echo $this->Form->hidden('is_admin', ['value' => '0']); ?>
                                                     <label></label>
                                                     <?php echo $this->Form->hidden('is_adherant', ['value' => '0']); ?>
+                                                </div>
+
+                                                <div class="span4">
+                                                    <label>Adress Email</label>
+                                                    <?php echo $this->Form->input('email', ['type' => 'text', "label" => false]); ?>
                                                 </div>
                                             </div>
                                             <br>
@@ -145,22 +144,6 @@
         <!-- END CONTENT -->
 
 <!-- END HEADER -->
-<!--<script type='text/javascript' src='sliders/thumbnails/js/jquery.aw-showcase.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.colorbox-min.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.tweetable.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.superfish.js'></script>-->
-<!--<script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.tipsy.js'></script>-->
-<!--<script type='text/javascript' src='js/responsive.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.mobilemenu.js'></script>-->
-<!--<script type='text/javascript' src='js/shortcodes.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.flexslider-min.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.easing.js'></script>-->
-<!--<script type='text/javascript' src='sliders/elastic/js/jquery.eislideshow.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.themepunch.plugins.min.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.themepunch.revolution.js'></script>-->
-<!--<script type='text/javascript' src='js/jquery.custom.js'></script>-->
 
 </body>
 </html>
