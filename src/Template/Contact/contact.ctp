@@ -43,6 +43,7 @@
                         <div class="page type-page status-publish hentry group">
                             <h3>Nous contactez</h3>
                             <p>&nbsp;</p>
+                            <?= $this->Form->create($email) ?>
                             <form id="contact-form-contact-form" class="contact-form row" method="post" action="../../../webroot/sendmail.php" enctype="multipart/form-data">
 
                                 <div class="usermessagea"></div>
@@ -56,8 +57,12 @@
                                         <span class="add-on">
                                             <i class="icon-user"></i>
                                         </span>
-                                                <input type="text" name="yit_contact[name]" id="name-contact-form" class="required" value="" />
-
+                                                <!--                                                <input type="text" name="yit_contact[name]" id="name-contact-form" class="required" value="" />-->
+                                                <?= $this->Form->text('name', [
+                                                    'name' => 'yit_contact[name]',
+                                                    'id' => 'name-contact-form',
+                                                    'class' => 'required'
+                                                ]); ?>
                                             </div>
                                             <div class="msg-error"></div>
                                             <div class="clear"></div>
@@ -108,6 +113,7 @@
                                         </li>
 
                                         <li class="submit-button span9">
+
                                             <input type="text" name="yit_bot" id="yit_bot" />
                                             <input type="hidden" name="yit_action" value="sendmail" id="yit_action" />
                                             <input type="hidden" name="yit_referer" value="pages-contact.html" />

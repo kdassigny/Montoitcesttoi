@@ -45,6 +45,7 @@
     <?= $this->Html->css('/portfolios/full-description/css/style'); ?>
     <?= $this->Html->css('/portfolios/slide-detail/css/style'); ?>
     <?= $this->Html->css('shortcodes'); ?>
+    <?= $this->Html->css('../blog/pinterest/css/style'); ?>
 
     <?= $this->Html->css('colorbox'); ?>
     <?= $this->Html->css('/sliders/elastic/css/elastic'); ?>
@@ -166,7 +167,7 @@
                                 <!-- START MAIN NAVIGATION -->
                                 <div class="menu">
                                     <ul id="nav" class="sf-menu">
-                                        <li class="nav-icon-hi current_page_item">
+                                        <li class="nav-icon-hi">
                                             <a href=<?= $this->Url->build('/accueil', [
                                                                 'controller' => 'News',
                                                                 'action' => 'index'

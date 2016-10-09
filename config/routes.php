@@ -104,11 +104,14 @@ Router::prefix('admin', function ($routes) {
     $routes->connect('/accueil/', ['controller' => 'Users', 'action' => 'admin']);
     $routes->connect('/utilisateur/', ['controller' => 'Users', 'action' => 'index']);
     $routes->connect('/utilisateur/ajout/', ['controller' => 'Users', 'action' => 'add']);
-    $routes->connect('/utilisateur/edit/', ['controller' => 'Users', 'action' => 'edit']);
+    $routes->connect('/utilisateur/edition/', ['controller' => 'Users', 'action' => 'edit']);
 
     $routes->connect('/animal/', ['controller' => 'Animals', 'action' => 'index']);
     $routes->connect('/animal/ajout/', ['controller' => 'Animals', 'action' => 'add']);
-    $routes->connect('/animal/edit/', ['controller' => 'Animals', 'action' => 'edit']);
+    $routes->connect('/animal/edition/', ['controller' => 'Animals', 'action' => 'edit']);
+
+    $routes->connect('/actulité/', ['controller' => 'News', 'action' => 'index']);
+    $routes->connect('/actualité/edition/', ['controller' => 'News', 'action' => 'edit']);
 
     $routes->fallbacks(DashedRoute::class);
 });

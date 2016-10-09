@@ -24,7 +24,7 @@
                         <li><input type="radio" name="sexe" value="1">Mâles</li>
                         <li><input type="radio" name="sexe" value="0">Femelles</li>
                     </ul>
-                    <?= $this->Form->button(__('Submit')) ?>
+                    <?= $this->Form->button(__('Rechercher')) ?>
                     <?= $this->Form->end() ?>
 
                     <ul>
