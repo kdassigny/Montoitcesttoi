@@ -52,7 +52,7 @@ class HostFamiliesController extends AppController
      */
     public function add($id = null)
     {
-        $hostFamily = $this->HostFamilies->newEntity();
+//        $hostFamily = $this->HostFamilies->newEntity();
         if ($this->request->is('post')) {
             $hostFamily = $this->HostFamilies->patchEntity($hostFamily, $this->request->data);
             if ($this->HostFamilies->save($hostFamily)) {
@@ -77,7 +77,7 @@ class HostFamiliesController extends AppController
                 $this->Flash->error(__('The host family could not be saved. Please, try again.'));
             }
         }
-        $users = $this->HostFamilies->Users->find('list', ['limit' => 200]);
+//        $users = $this->HostFamilies->Users->find('list', ['limit' => 200]);
         $this->set(compact('hostFamily', 'users'));
         $this->set('_serialize', ['hostFamily']);
     }

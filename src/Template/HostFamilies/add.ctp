@@ -1,7 +1,6 @@
+<!-- Latest compiled and minified CSS -->
 <div class="container group">
-
     <br>
-
     <div class="row box-title">
         <div class="span4">
             <div class="border-line"></div>
@@ -11,7 +10,7 @@
             <div class="border-line"></div>
         </div>
     </div>
-    <?= $this->Form->create($hostFamily, ['class' => 'form-group']); ?>
+    <?= $this->Form->create($hostFamily, ['class' => 'form-horizontal']); ?>
     <?= $this->Form->hidden('user_id', ['value' => 2]); ?>
     <fieldset>
         <div class="row">
@@ -22,45 +21,58 @@
                     <br>
                     <div class="panel-body">
                         <h4>Vos animaux</h4>
-                        <?= $this->Form->input('animal_list', ['label' => '', 'rows' => '8', 'style' => 'width:500px;']); ?>
+                        <div class="row">
+                            <div class="span12">
+                                <div class="input_fields_wrap">
+                                    <button class=" offset7 add_field_button btn btn-large  btn-identification-4 ">
+                                        Ajouter un animal<i class="icon-plus-sign" style="font-size: 12px;"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button class=" offset7 validator btn btn-large  btn-identification-4 ">Valider les animaux<i
+                                class="icon-check" style="font-size: 12px;"></i></button>
+
+                        <?= $this->Form->input('animal_list', ['id' => 'list', 'label' => '', 'rows' => '8', 'style' => 'width:500px;']); ?>
                         <br>
                         <h4>Animaux acceptés</h4><br>
                         <div class="row">
-                            <div class="span2 offset2">
-                                <?= $this->Form->input('dog_male', ['label' => 'chien']); ?>
+                            <div class=" checkbox span2 offset2">chien
+                                <?= $this->Form->checkbox('dog_male', ['label' => 'chien']); ?>
                             </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('cat_male', ['label' => 'chat']); ?>
+                            <div class=" checkbox span2 offset1">chat
+                                <?= $this->Form->checkbox('cat_male', ['label' => 'chat']); ?>
                             </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('rodent', ['label' => 'rongeur']); ?>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="span2 offset2">
-                                <?= $this->Form->input('dog_female', ['label' => 'chienne']); ?>
-                            </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('cat_female', ['label' => 'chatte']); ?>
-                            </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('bird', ['label' => 'oiseau']); ?>
+                            <div class="checkbox span2 offset1">rongeur
+                                <?= $this->Form->checkbox('rodent', ['label' => 'rongeur']); ?>
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="span2 offset2">
-                                <?= $this->Form->input('puppy', ['label' => 'chiot']); ?>
+                            <div class=" checkbox span2 offset2">chienne
+                                <?= $this->Form->checkbox('dog_female', ['label' => 'chienne']); ?>
                             </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('kitten', ['label' => 'chaton']); ?>
+                            <div class=" checkbox span2 offset1">chatte
+                                <?= $this->Form->checkbox('cat_female', ['label' => 'chatte']); ?>
                             </div>
-                            <div class="span2 offset1">
-                                <?= $this->Form->input('nac', ['label' => 'NAC (reptil et autre)']); ?>
+                            <div class=" checkbox span2 offset1">oiseau
+                                <?= $this->Form->checkbox('bird', ['label' => 'oiseau']); ?>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=" checkbox span2 offset2">chiot
+                                <?= $this->Form->checkbox('puppy', ['label' => 'chiot']); ?>
+                            </div>
+                            <div class=" checkbox span2 offset1">chaton
+                                <?= $this->Form->checkbox('kitten', ['label' => 'chaton']); ?>
+                            </div>
+                            <div class=" checkbox span2 offset1">reptil
+                                <?= $this->Form->checkbox('nac', ['label' => 'NAC (reptil et autre)']); ?>
                                 <br>
                             </div>
-                            <br>
+                            <br><br>
                             <div class="span12">
                                 <?= $this->Form->input('animal_numbre', ['label' => 'Nombre d\'animaux accepté(environ)']); ?>
                                 <br>
@@ -139,7 +151,7 @@
                                         ['value' => '0', 'text' => 'Non'],
                                     ]
                                 ); ?>
-
+                                <br>
                                 <h4>Êtes vous plutot une personne:</h4>
                                 <?= $this->Form->radio('activity', [
                                         ['value' => 'Peu actif', 'text' => 'Peu active'],
@@ -184,3 +196,55 @@
     </div>
 </div>
 
+<script>
+
+
+    $(document).ready(function () {
+
+        $('.validator').click(function (e) {
+            e.preventDefault();
+            var nom = document.forms[0].elements["animal"].value;
+            console.log(nom);
+//            var paste = $(this).text();
+            $('#list').val(nom);
+        });
+
+        var max_fields = 10; //maximum input row
+        var wrapper = $(".input_fields_wrap"); //Fields wrapper
+        var add_button = $(".add_field_button"); //Add button ID
+        var row = $("div.animal").html();
+
+        var x = 1; //initlal row count
+        $(add_button).click(function (e) { //on add input button click
+            e.preventDefault();
+            if (x < max_fields) { //max input
+                x++; //row increment
+                $(wrapper).append('<div class="row">' +
+                    '<div class="span12">' +
+                    '<input type="text" name="animal"  placeholder="Nom" value="">' +
+                    '<input type="date" placeholder="Amount" value="">' +
+                    '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe" value="Male">Male</label>' +
+                    '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe" value="Femelle">Femelle</label>' +
+                    '<label class="checkbox-inline">' +
+                    '<input type="checkbox"  value="Stérilisé"> Animal stérilisé' +
+                    '</label>' +
+                    '<a href="#" class="remove_field btn   btn-hem-5 " style="margin: 20px;"><i class="icon-trash" style="font-size: 12px;"></i>Supprimer</a>' +
+                    '</div> </div>'); //add input box
+            }
+        });
+
+
+        $(wrapper).on("click", ".remove_field", function (e) { //user click on remove text
+            e.preventDefault();
+            $(this).parent('div').remove();
+            x--;
+        })
+    });
+
+
+    //    var id = $('.animal <input').attr('id');
+    //    var paste = $(this).text();
+    //    $('#id_entrie').attr("name",id);
+    //    $('#content').val(paste);
+    //});
+</script>

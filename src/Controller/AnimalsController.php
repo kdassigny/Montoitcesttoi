@@ -16,7 +16,7 @@ class AnimalsController extends AppController
     public function beforeFilter(Event $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow(['index', 'view']);
+        $this->Auth->allow(['index', 'view', 'sort']);
     }
     /**
      * Index method
@@ -59,6 +59,42 @@ class AnimalsController extends AppController
         $this->set('_serialize', ['animals']);
     }
 
+
+    public function sort()
+    {
+        $this->paginate = [
+            'contain' => ['Especes', 'Categories', 'Images']
+        ];
+
+        //  filter animals
+        if (isset($this->request->query) && !empty($this->request->query)) {
+
+            $espece_id = $this->request->query('espece_id');
+            $sexe = $this->request->query('sexe');
+            $categorie_id = $this->request->query('categorie_id');
+
+            $animals = $this->Animals->find('all');
+            if ($this->request->query('espece_id') != null) {
+                $animals->where(['espece_id' => $espece_id]);
+            }
+            if ($this->request->query('sexe') != null) {
+                $animals->where(['sexe' => $sexe]);
+            }
+            if ($this->request->query('categorie_id') != null) {
+                $animals->where(['categorie_id' => $categorie_id]);
+            }
+            $animals = $this->paginate($animals);
+
+        } else {
+            $animals = $this->paginate($this->Animals);
+        }
+
+        $especes = $this->Animals->Especes->find('list', ['keyField' => 'id', 'valueField' => 'espece_name']);
+        $categories = $this->Animals->Categories->find('list', ['keyField' => 'id', 'valueField' => 'categorie_name']);
+
+        $this->set(compact('animals', 'especes', 'categories'));
+        $this->set('_serialize', ['animals']);
+    }
     /**
      * View method
      *

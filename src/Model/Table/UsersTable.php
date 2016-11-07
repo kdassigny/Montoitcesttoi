@@ -69,8 +69,8 @@ class UsersTable extends Table
 
         $validator
             ->email('email')
-            ->requirePresence('email', 'create')
-            ->notEmpty('email');
+            ->requirePresence('email', 'create');
+
 
         $validator
             ->allowEmpty('password');
@@ -79,12 +79,12 @@ class UsersTable extends Table
             ->allowEmpty('username');
 
         $validator
-            ->requirePresence('fisrt_name', 'create')
-            ->notEmpty('fisrt_name', 'Veuillez renseigner ce champ');
+            ->requirePresence('first_name', 'create');
+
 
         $validator
-            ->requirePresence('last_name', 'create')
-            ->notEmpty('last_name', 'Veuillez renseigner ce champ');
+            ->requirePresence('last_name', 'create');
+
 
         $validator
             ->boolean('is_admin')

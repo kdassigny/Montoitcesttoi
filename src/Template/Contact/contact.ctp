@@ -43,9 +43,9 @@
                         <div class="page type-page status-publish hentry group">
                             <h3>Nous contactez</h3>
                             <p>&nbsp;</p>
-                            <?= $this->Form->create($email) ?>
-                            <form id="contact-form-contact-form" class="contact-form row" method="post" action="../../../webroot/sendmail.php" enctype="multipart/form-data">
 
+                            <form class="contact-form row">
+                                <?= $this->Form->create($email, ['url' => ['controller' => 'Contact', 'action' => 'contact'], 'type' => 'post']); ?>
                                 <div class="usermessagea"></div>
                                 <fieldset>
                                     <ul>
@@ -59,9 +59,10 @@
                                         </span>
                                                 <!--                                                <input type="text" name="yit_contact[name]" id="name-contact-form" class="required" value="" />-->
                                                 <?= $this->Form->text('name', [
-                                                    'name' => 'yit_contact[name]',
+
                                                     'id' => 'name-contact-form',
-                                                    'class' => 'required'
+                                                    'class' => 'required',
+                                                    'value' => ''
                                                 ]); ?>
                                             </div>
                                             <div class="msg-error"></div>
@@ -76,7 +77,13 @@
                                         <span class="add-on">
                                             <i class="icon-envelope"></i>
                                         </span>
-                                                <input type="text" name="yit_contact[email]" id="email-contact-form" class="required email-validate" value="" />
+                                                <?= $this->Form->text('mail', [
+
+                                                    'id' => 'email-contact-form',
+                                                    'class' => 'required email-validate',
+                                                    'value' => ''
+                                                ]); ?>
+                                                <!--                                                <input type="text" name="yit_contact[email]" id="email-contact-form" class="required email-validate" value="" />-->
                                             </div>
 
                                             <div class="msg-error"></div>
@@ -91,7 +98,13 @@
                                         <span class="add-on">
                                             <i class="icon-phone"></i>
                                         </span>
-                                                <input type="text" name="yit_contact[phone]" id="phone-contact-form" class="" value="" />
+                                                <?= $this->Form->text('phone', [
+
+                                                    'id' => 'phone-contact-form',
+                                                    'class' => 'required email-validate',
+                                                    'value' => ''
+                                                ]); ?>
+                                                <!--                                                <input type="text" name="yit_contact[phone]" id="phone-contact-form" class="" value="" />-->
                                             </div>
 
                                             <div class="msg-error"></div>
@@ -106,19 +119,22 @@
                                         <span class="add-on">
                                             <i class="icon-pencil"></i>
                                         </span>
-                                                <textarea name="yit_contact[message]" id="message-contact-form" rows="8" cols="30" class="required"></textarea>
+                                                <?= $this->Form->textarea('text', [
+
+                                                    'id' => 'message-contact-form',
+                                                    'rows' => '8',
+                                                    'cols' => '30',
+                                                    'class' => 'required',
+                                                ]); ?>
+                                                <!--                                                <textarea name="yit_contact[message]" id="message-contact-form" rows="8" cols="30" class="required"></textarea>-->
                                             </div>
                                             <div class="msg-error"></div>
                                             <div class="clear"></div>
                                         </li>
-
+                                        <input type="submit" name="yit_sendemail" value="Envoyer message"
+                                               class="sendmail alignright">
                                         <li class="submit-button span9">
 
-                                            <input type="text" name="yit_bot" id="yit_bot" />
-                                            <input type="hidden" name="yit_action" value="sendmail" id="yit_action" />
-                                            <input type="hidden" name="yit_referer" value="pages-contact.html" />
-                                            <input type="hidden" name="id_form" value="3" />
-                                            <input type="submit" name="yit_sendemail" value="Envoyer" class="sendmail alignright" />
                                             <div class="clear"></div>
                                         </li>
                                     </ul>
@@ -133,7 +149,7 @@
                                     message: "Ecriver votre message"
                                 };
                             </script>
-
+                            <?= $this->Form->end() ?>
                         </div>
 
 

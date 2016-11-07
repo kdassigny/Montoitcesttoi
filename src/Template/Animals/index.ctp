@@ -15,8 +15,7 @@
         <div id="sidebar-blog-sidebar" class="span4 sidebar group">
             <div id="text-9" class="widget-first widget widget_text">
                 <h3>Recherche</h3>
-                <form>
-                    <?= $this->Form->create($animals, ['url' => ['action' => 'index'], 'type' => 'get']); ?>
+                <?= $this->Form->create($animals, ['url' => ['action' => 'sort'], 'type' => 'get', 'id' => "sort"]); ?>
                     <?= $this->Form->input('espece_id', ['empty' => 'Tous']); ?>
                     <?= $this->Form->input('categorie_id', ['empty' => 'Tous']); ?>
                     <ul>sexe
@@ -24,14 +23,11 @@
                         <li><input type="radio" name="sexe" value="1">Mâles</li>
                         <li><input type="radio" name="sexe" value="0">Femelles</li>
                     </ul>
-                    <?= $this->Form->button(__('Rechercher')) ?>
+                <button class="more-button " type="submit" title="find">Rechercher<span class="icon tick">&nbsp;</span>
+                </button>
                     <?= $this->Form->end() ?>
 
                     <ul>
-                        <!--                        <li><input type="checkbox" name="espece_id" value="1">Chiens</li>-->
-                        <!--                        <li><input type="checkbox" name="espece_id" value="2">Chats</li>-->
-                        <!--                        <li><input type="checkbox" name="espece_id" value="3,4,5">Autres</li>-->
-                        <!--                    </ul>-->
                         <li><?= $this->paginator->sort('age', 'trier par age'); ?></li>
                         <li><?= $this->paginator->sort('arrived', 'trier par date d\'arrivé'); ?></li>
                     </ul>
@@ -39,9 +35,8 @@
         </div>
         <!-- END SIDEBAR -->
         <!-- START CONTENT -->
-        <?php if (empty($animals)): ?>
-            <p>Aucun resultat</p>
-        <?php endif; ?>
+        <div id="list">
+
 
         <?php foreach ($animals as $animal): ?>
 
@@ -105,6 +100,7 @@
 
             </div>
         <?php endforeach; ?>
+        </div>
     </div>
     <!-- END CONTENT -->
 
@@ -124,3 +120,15 @@
         <p><?= $this->Paginator->counter() ?></p>
     </div>
 </div>
+
+
+<script>
+    $("#sort").submit(function (e) {
+        e.preventDefault();
+
+        var form = $(this).serialize();
+        var data = '<?= $this->Url->build(['controller' => 'Animals', 'action' => 'sort']); ?>?' + form;
+        $('#list').load(data);
+
+    });
+</script>

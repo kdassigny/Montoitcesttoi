@@ -25,15 +25,21 @@ class ContactController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
-    public function contact()
+    public function contact($email = null)
     {
+
         if ($this->request->is(['patch', 'post', 'put'])) {
-            $email = new Email();
+            debug($this->request);
+            die();
+            $email = new Email('default');
+            $email->template('default', 'default');
             $email->profile('default');
-            $email->from(['me@example.com' => 'MTCT'])
+            $email->from([$this->request->data['mail'] => 'MTCT'])
                 ->to('wolf.6993@hotmail.fr')
                 ->subject('About')
-                ->send('My message');
+                ->send($this->request->data['name'],
+                    $this->request->data['phone'],
+                    $this->request->data['text']);
         }
     }
 

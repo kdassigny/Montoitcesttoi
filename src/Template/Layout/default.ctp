@@ -31,9 +31,9 @@
     <!-- MAIN THEME STYLESHEET -->
     <?= $this->Html->css('style'); ?>
 
-
     <?= $this->Html->css('custom'); ?>
-
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script
     <link rel='stylesheet' id='google-fonts-css'
           href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez'
           type='text/css' media='all'/>
@@ -50,22 +50,10 @@
     <?= $this->Html->css('colorbox'); ?>
     <?= $this->Html->css('/sliders/elastic/css/elastic'); ?>
     <?= $this->Html->css('buttons/mfast-3'); ?>
+    <?= $this->Html->css('buttons/hem-5'); ?>
+    <?= $this->Html->css('buttons/identification-4'); ?>
     <?= $this->Html->css('contact_form'); ?>
     <?= $this->Html->css('/blog/small/css/style'); ?>
-
-    <!-- Touch icons more info: http://mathiasbynens.be/notes/touch-icons -->
-    <!-- For iPad3 with retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x.png"/>
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x.png"/>
-    <!-- For first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x.png">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png"/>
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png"/>
-
-
     <?= $this->Html->script('jquery/jquery'); ?>
 </head>
 <body class="home page no_js responsive stretched">
@@ -81,61 +69,15 @@
         <div id="topbar">
             <div class="container">
                 <div class="row">
-                    <!--<div id="last-tweets-3" class="widget-first span6 widget last-tweets">
-                        <h3>Last Tweets</h3>
-                        <div class="list-tweets-3"></div>
-
-                        <script type="text/javascript">
-                            jQuery(function($){
-                                $('#last-tweets-3 .list-tweets-3').tweetable({
-                                    listClass: 'tweets-widget-3',
-                                    username: 'YIW',
-                                    time: false,
-                                    limit: 3,
-                                    replies: false
-                                });
-                            });
-                        </script>
-
-                    </div>-->
 
                     <div id="text-8" class=" widget-last span12 widget widget_text">
                         <div class="textwidget">
                             <a href="# " class="socials-small facebook-small" title="Facebook" style="right: 0px;">facebook</a>
-
-                            <!-- <a href="#" class="socials-small rss-small" title="Rss"  >rss</a>
-
-                             <a href="#" class="socials-small twitter-small" title="Twitter"  >twitter</a>
-
-                             <a href="#" class="socials-small google-small" title="Google"  >google</a>
-
-                             <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
-
-                             <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a>-->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!---->
-        <!--        <script>-->
-        <!--            jQuery(function ($) {-->
-        <!--                var twitterSlider = function () {-->
-        <!--                    $('#topbar .last-tweets ul').addClass('slides');-->
-        <!--                    $('#topbar .last-tweets').flexslider({-->
-        <!--                        animation: "fade",-->
-        <!--                        slideshowSpeed: 5 * 1000,-->
-        <!--                        animationDuration: 700,-->
-        <!--                        directionNav: false,-->
-        <!--                        controlNav: false,-->
-        <!--                        keyboardNav: false-->
-        <!--                    });-->
-        <!--                };-->
-        <!--                $('#topbar .last-tweets > div').bind('tweetable_loaded', function () {-->
-        <!--                    twitterSlider();-->
-        <!--                });-->
-        <!--            });-->
-        <!--        </script>-->
 
         <!-- END TOP BAR -->
 
@@ -376,17 +318,6 @@
                             </ul>
                         </div>
                     <!--end like icon-->
-                        <script type="text/javascript">
-                            jQuery(function ($) {
-                                $('#last-tweets-2 .list-tweets-2').tweetable({
-                                    listClass: 'tweets-widget-2',
-                                    username: 'envato',
-                                    time: true,
-                                    limit: 2,
-                                    replies: true
-                                });
-                            });
-                        </script>
                     </div>
                 </div>
             </div>
@@ -395,13 +326,8 @@
     <!-- END FOOTER -->
 </div>
 <!-- END WRAPPER -->
-
 <!-- END BG SHADOW -->
 
-<!-- START CUSTOM SCRIPT -->
-<!-- END CUSTOM SCRIPT -->
-
-<!-- END HEADER -->
 <?= $this->Html->script('/sliders/thumbnails/js/jquery.aw-showcase'); ?>
 <?= $this->Html->script('jquery.colorbox-min'); ?>
 <?= $this->Html->script('jquery.tweetable'); ?>
@@ -418,7 +344,7 @@
 <?= $this->Html->script('jquery.themepunch.plugins.min'); ?>
 <?= $this->Html->script('jquery.themepunch.revolution'); ?>
 <?= $this->Html->script('jquery.custom'); ?>
-
+<?= $this->Html->script('ajax.animals-sort'); ?>
 
 </body>
 </html>
