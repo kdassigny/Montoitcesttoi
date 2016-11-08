@@ -183,9 +183,18 @@
                             </div>
                         </div>
 
-                        <br> <br><br>
+                        <br> <br>
+                        <div class="row box-title">
+                            <div class="span3">
+                                <div class="border-line"></div>
+                            </div>
+                            <h3 class="span3 ">Actualités</h3>
+                            <div class="span3">
+                                <div class="border-line"></div>
+                            </div>
+                        </div>
                         <!-- span wrapper -->
-                        <div id="content-blog" class="span10 offset1 content group">
+                        <div id="content-blog" class="span10 content group">
                             <div class="row">
                                 <div id="pinterest-container">
                                     <?php foreach ($news as $news): ?>

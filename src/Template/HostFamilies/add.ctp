@@ -29,7 +29,7 @@
                         <div class="row">
                             <div class="span12">
                                 <div class="input_fields_wrap">
-                                    <button class=" offset7 add_field_button btn btn-large  btn-identification-4 ">
+                                    <button class=" offset7 add_field_button btn btn-large btn-friends-and-foes-2 ">
                                         Ajouter un animal<i class="icon-plus-sign" style="font-size: 12px;"></i>
                                     </button>
                                 </div>
@@ -217,9 +217,9 @@
 
             $('.animal').each(function (i) {
                 list.push(i +
-                    ": " + $(this).find("input:eq(0)").val() +
+                    ": " + $(this).find("select").val() +
                     " né le " + $(this).find("input:eq(1)").val() +
-                    " de sexe:" + $(this).find("input:radio:checked").val() +
+                    " de sexe " + $(this).find("input:radio:checked").val() +
                     " et " + check($(this).find("input:checkbox:checked").val()));
             });
             $('#list').val(list);
@@ -238,10 +238,15 @@
                 x++; //row increment
                 $(wrapper).append('<div class="row">' +
                     '<div class="span12 animal" >' +
-                    '<input type="text" name="animal"  placeholder="Animal" value="">' +
+                    '<select> <option>Chien</option>' +
+                    ' <option>Chat</option>' +
+                    '<option>Rongeur</option>' +
+                    '<option>Oiseau</option>' +
+                    '<option>Reptil</option>' +
+                    ' </select>' +
                     '<input type="date" placeholder="Amount" value="">' +
-                    '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe' + x + '" value="Male">Male</label>' +
-                    '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe' + x + '" value="Femelle">Femelle</label>' +
+                    '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe' + x + '" value="mâle">Male</label>' +
+                    '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe' + x + '" value="femelle">Femelle</label>' +
                     '<label class="checkbox-inline">' +
                     '<input type="checkbox"  value="stérilisé"> Animal stérilisé' +
                     '</label>' +

@@ -27,17 +27,17 @@
                 </button>
                     <?= $this->Form->end() ?>
 
-                    <ul>
-                        <li><?= $this->paginator->sort('age', 'trier par age'); ?></li>
-                        <li><?= $this->paginator->sort('arrived', 'trier par date d\'arrivé'); ?></li>
-                    </ul>
             </div>
         </div>
         <!-- END SIDEBAR -->
         <!-- START CONTENT -->
         <div id="list">
-
-
+            <div class="paginator">
+                <ul class="paginator">
+                    <li style="display: inline-block;"><?= $this->paginator->sort('age', 'trier par age'); ?></li>
+                    <li style="display: inline-block;margin-left: 20px;"><?= $this->paginator->sort('arrived', 'trier par date d\'arrivé'); ?></li>
+                </ul>
+            </div>
         <?php foreach ($animals as $animal): ?>
 
             <div id="content-blog" class="span9 content group offset1">
@@ -45,7 +45,7 @@
                 <div
                     class="post type-post status-publish format-gallery hentry category-web-design tag-design tag-developing tag-web hentry-post group blog-small">
                     <!-- post featured & title -->
-                    <div class="thumbnail">
+                    <div class="thumbnail" style="background-color:  rgba(238, 238, 238, 0.31);">
                         <div class="row">
 
                             <!-- post featured -->
@@ -72,7 +72,7 @@
                             <div class="clear"></div>
 
                             <!-- post meta -->
-                            <div class="meta group span3">
+                            <div class="meta group span3" style="opacity: 0;">
                                 <div>
                                     <p class="author">
                                         <img src="images/icons/author.png" alt="icon-user"/>
@@ -109,13 +109,12 @@
 </div>
 <!-- END PRIMARY -->
 
-
 <div class="row">
-    <div class='general-pagination group'>
-        <ul class="pagination ">
-            <?= $this->Paginator->prev('< ' . __('previous'), ['class' => 'selected']) ?>
+    <div class="paginator">
+        <ul class="pagination">
+            <?= $this->Paginator->prev('< ' . __('précédent')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
+            <?= $this->Paginator->next(__('suivant') . ' >') ?>
         </ul>
         <p><?= $this->Paginator->counter() ?></p>
     </div>
@@ -123,6 +122,17 @@
 
 
 <script>
+    $(document).ready(function () {
+        $('.thumbnail')
+            .mouseenter(function () {
+                $(this).find(".meta.group.span3").css("opacity", "1", 500)
+            })
+            .mouseleave(function () {
+                $(this).find(".meta.group.span3").css("opacity", "0", 500)
+            });
+    });
+
+
     $("#sort").submit(function (e) {
         e.preventDefault();
 
