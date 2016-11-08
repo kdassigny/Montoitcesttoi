@@ -30,8 +30,9 @@ class UsersController extends AppController
             if ($user) {
                 $this->Auth->setUser($user);
                 return $this->redirect([
-                    'controller' => 'admin',
-                    'action' => 'users/admin'
+                    'prefix' => 'admin',
+                    'controller' => 'users',
+                    'action' => 'admin'
                 ]);
             }
             $this->Flash->error(__('Authentification invalide'));

@@ -2,27 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e776cf83-e5bb-405d-af90-b46c2491d917" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/ar/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/cake.pot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/cs/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/da/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/de/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/es/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/fa/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/fr_FR/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/hu/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/it/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/ja_JP/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/nb/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/nl/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/no/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/pt/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/ro_RO/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/ru/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Locale/zh_CN/cake.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Animals/sort.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/ajax.animals-sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_users" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/images/slider/slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/images/slider/slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/images/slider/slider3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/images/slider/slider4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/images/slider/slider5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/3e5d33e0-f310-425f-bd59-34b94f940466.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/cli-error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/Admin/AnimalsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/Admin/NewsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/Admin/UsersController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Animals/add.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Animals/edit.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Animals/index.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Animals/view.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/News/add.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/News/edit.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/News/index.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/News/view.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Users/add.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Users/edit.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Users/index.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Template/Admin/Users/view.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/Admin/AnimalsControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/Admin/NewsControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/Admin/UsersControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/AtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/AuValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/BdValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/BeValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/BrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/CaValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ChValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/CnValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/CzValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/DeValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/DkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/EsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/FiValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/FrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/GbValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/HrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/IdValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/InValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/IrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ItValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/JpValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/LocalizedValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/LtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/LvValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/MxValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/NlValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/NoValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/PlValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/PtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/RoValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/RsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/RuValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/SkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/TrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/TwValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/UaValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/UkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/UsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/phpunit.xml.dist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/ar/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/cake.pot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/cs/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/da/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/de/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/es/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/fa/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/fr_FR/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/hu/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/it/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/ja_JP/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/nb/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/nl/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/no/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/pt/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/ro_RO/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/ru/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Locale/zh_CN/cake.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/AtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/AuValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/BdValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/BeValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/BrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/CaValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/ChValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/CnValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/CzValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/DeValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/DkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/EsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/FrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/GbValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/HrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/IdValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/InValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/IrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/ItValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/JpValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/LocalizedValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/LtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/MxValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/NlValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/NoValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/PlValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/PtValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/RoValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/RsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/RuValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/SkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/TrValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/TwValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/UkValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/UsValidation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/src/Validation/ValidationInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/IntegrationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/AtValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/AuValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/BdValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/BeValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/BrValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/CaValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/ChValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/CnValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/CzValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/DeValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/DkValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/EsValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/FrValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/GbValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/HrValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/IdValidatationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/InValidatationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/IrValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/ItValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/JpValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/LtValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/MxValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/NlValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/NoValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/PlValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/PtValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/RoValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/RsValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/RuValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/SkValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/TrValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/TwValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/TestCase/Validation/UsValidationTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cakephp/localized/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/cake.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_fr__f_r" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_fr__f_r" />
@@ -30,19 +175,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_fr__f_r" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_fr__f_r" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/debug.log" afterPath="$PROJECT_DIR$/logs/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AnimalsController.php" afterPath="$PROJECT_DIR$/src/Controller/AnimalsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" afterPath="$PROJECT_DIR$/src/Controller/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/HostFamiliesController.php" afterPath="$PROJECT_DIR$/src/Controller/HostFamiliesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/User.php" afterPath="$PROJECT_DIR$/src/Model/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/UsersTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Animals/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Animals/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Contact/contact.ctp" afterPath="$PROJECT_DIR$/src/Template/Contact/contact.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsersController.php" afterPath="$PROJECT_DIR$/src/Controller/UsersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp" afterPath="$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/HostFamilies/add.ctp" afterPath="$PROJECT_DIR$/src/Template/HostFamilies/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/bootstrap.css" afterPath="$PROJECT_DIR$/webroot/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/style.css" afterPath="$PROJECT_DIR$/webroot/css/style.css" />
     </list>
     <ignored path="MTCT.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,27 +212,12 @@
       <file leaf-file-name="add.ctp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Template/HostFamilies/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="217" column="36" selection-start-line="217" selection-start-column="36" selection-end-line="217" selection-end-column="36" />
+            <state relative-caret-position="965">
+              <caret line="255" column="43" selection-start-line="255" selection-start-column="43" selection-end-line="255" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1478532955024" expanded="true" signature="1781:1911" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="1847:1911" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2049:2112" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2248:2314" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2460:2592" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2526:2592" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2734:2799" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="2940:3005" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="3148:3278" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="3214:3278" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="3413:3478" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="3615:3680" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="3886:3942" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="10505:10511" ph=" " />
-                <marker date="1478532955024" expanded="true" signature="12233:12246" ph="..." />
-                <marker date="1478532955024" expanded="true" signature="12277:12293" ph="..." />
+                <marker date="1478619778914" expanded="true" signature="10688:10694" ph=" " />
+                <marker date="1478619778914" expanded="true" signature="12911:12924" ph="..." />
+                <marker date="1478619778914" expanded="true" signature="12955:12971" ph="..." />
               </folding>
             </state>
           </provider>
@@ -103,68 +226,8 @@
       <file leaf-file-name="admin.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="117" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/Admin/UsersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-966">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cake.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/css/cake.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1341">
-              <caret line="1066" column="33" selection-start-line="1066" selection-start-column="33" selection-end-line="1066" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/Admin/News/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -202,23 +265,19 @@
         <option value="$PROJECT_DIR$/src/Template/Users/admin.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Animals/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/Admin/UsersController.php" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Animals/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Animals/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/config/bootstrap.php" />
         <option value="$PROJECT_DIR$/src/Template/Users/famille.ctp" />
         <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/Validator.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/webroot/css/style.css" />
         <option value="$PROJECT_DIR$/config/app.default.php" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Users/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Users/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Users/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/News/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Animals/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Users/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Admin/Animals/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/Admin/AnimalsController.php" />
@@ -238,6 +297,10 @@
         <option value="$PROJECT_DIR$/src/Template/Admin/News/index.ctp" />
         <option value="$USER_HOME$/Documents/DEV/FRAMEWORK/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/webroot/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/UsersController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/webroot/css/style.css" />
         <option value="$PROJECT_DIR$/src/Template/HostFamilies/add.ctp" />
       </list>
     </option>
@@ -362,6 +425,72 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Users" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MTCT" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -416,17 +545,17 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\MTCT\src" />
-      <recent name="C:\wamp64\www\MTCT\webroot" />
-      <recent name="C:\wamp64\www\MTCT\webroot\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\MTCT\src\Template\Admin\Users" />
       <recent name="C:\wamp64\www\MTCT\src\Template\Admin" />
       <recent name="C:\wamp64\www\MTCT\webroot" />
       <recent name="C:\wamp64\www\MTCT\src\Template\Users" />
       <recent name="C:\wamp64\www\MTCT\src\Template\Team" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\MTCT\src" />
+      <recent name="C:\wamp64\www\MTCT\webroot" />
+      <recent name="C:\wamp64\www\MTCT\webroot\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -552,7 +681,8 @@
       <workItem from="1478072455077" duration="677000" />
       <workItem from="1478506059329" duration="1084000" />
       <workItem from="1478508174766" duration="6562000" />
-      <workItem from="1478522704598" duration="10088000" />
+      <workItem from="1478522704598" duration="10884000" />
+      <workItem from="1478591765012" duration="23741000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1473950403105</created>
@@ -652,23 +782,30 @@
       <option name="project" value="LOCAL" />
       <updated>1476032964078</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="modification page d'accueil &#10; ajout admin/news">
+      <created>1478533206974</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1478533206974</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="429501000" />
+    <option name="totallyTimeSpent" value="454038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1444" height="867" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18713872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1900289" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32833788" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -956,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,49 +1126,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="98" column="78" selection-start-line="98" selection-start-column="78" selection-end-line="98" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4646">
           <caret line="214" column="38" selection-start-line="214" selection-start-column="38" selection-end-line="214" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Admin/News/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="997" column="33" selection-start-line="997" selection-start-column="33" selection-end-line="997" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-966">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1058,31 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="2643" column="22" selection-start-line="2643" selection-start-column="22" selection-end-line="2643" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1341">
-          <caret line="1066" column="33" selection-start-line="1066" selection-start-column="33" selection-end-line="1066" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="117" selection-start-line="18" selection-start-column="117" selection-end-line="18" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,37 +1180,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Admin/News/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1067" column="33" selection-start-line="1067" selection-start-column="33" selection-end-line="1067" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="109" column="83" selection-start-line="109" selection-start-column="83" selection-end-line="109" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Admin/Users/admin.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/HostFamilies/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="217" column="36" selection-start-line="217" selection-start-column="36" selection-end-line="217" selection-end-column="36" />
+        <state relative-caret-position="965">
+          <caret line="255" column="43" selection-start-line="255" selection-start-column="43" selection-end-line="255" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1478532955024" expanded="true" signature="1781:1911" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="1847:1911" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2049:2112" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2248:2314" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2460:2592" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2526:2592" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2734:2799" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="2940:3005" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="3148:3278" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="3214:3278" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="3413:3478" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="3615:3680" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="3886:3942" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="10505:10511" ph=" " />
-            <marker date="1478532955024" expanded="true" signature="12233:12246" ph="..." />
-            <marker date="1478532955024" expanded="true" signature="12277:12293" ph="..." />
+            <marker date="1478619778914" expanded="true" signature="10688:10694" ph=" " />
+            <marker date="1478619778914" expanded="true" signature="12911:12924" ph="..." />
+            <marker date="1478619778914" expanded="true" signature="12955:12971" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,9 @@
 <!-- Latest compiled and minified CSS -->
+<style>
+    body {
+        background-color: #507479;
+    }
+</style>
 <div class="container group">
     <br>
     <div class="row box-title">
@@ -197,16 +202,28 @@
 </div>
 
 <script>
-
-
     $(document).ready(function () {
+
+        function check(s) {
+            if (s == null) {
+                s = "non stérilisé";
+            }
+            return s;
+        }
 
         $('.validator').click(function (e) {
             e.preventDefault();
-            var nom = document.forms[0].elements["animal"].value;
-            console.log(nom);
-//            var paste = $(this).text();
-            $('#list').val(nom);
+            var list = new Array();
+
+            $('.animal').each(function (i) {
+                list.push(i +
+                    ": " + $(this).find("input:eq(0)").val() +
+                    " né le " + $(this).find("input:eq(1)").val() +
+                    " de sexe:" + $(this).find("input:radio:checked").val() +
+                    " et " + check($(this).find("input:checkbox:checked").val()));
+            });
+            $('#list').val(list);
+            console.log(list);
         });
 
         var max_fields = 10; //maximum input row
@@ -220,19 +237,18 @@
             if (x < max_fields) { //max input
                 x++; //row increment
                 $(wrapper).append('<div class="row">' +
-                    '<div class="span12">' +
-                    '<input type="text" name="animal"  placeholder="Nom" value="">' +
+                    '<div class="span12 animal" >' +
+                    '<input type="text" name="animal"  placeholder="Animal" value="">' +
                     '<input type="date" placeholder="Amount" value="">' +
-                    '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe" value="Male">Male</label>' +
-                    '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe" value="Femelle">Femelle</label>' +
+                    '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe' + x + '" value="Male">Male</label>' +
+                    '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe' + x + '" value="Femelle">Femelle</label>' +
                     '<label class="checkbox-inline">' +
-                    '<input type="checkbox"  value="Stérilisé"> Animal stérilisé' +
+                    '<input type="checkbox"  value="stérilisé"> Animal stérilisé' +
                     '</label>' +
-                    '<a href="#" class="remove_field btn   btn-hem-5 " style="margin: 20px;"><i class="icon-trash" style="font-size: 12px;"></i>Supprimer</a>' +
+                    '<a href="#" class="remove_field btn   btn-hem-5 " style="margin: 20px;"><i class="icon-trash" style="font-size: 12px;"></i></a>' +
                     '</div> </div>'); //add input box
             }
         });
-
 
         $(wrapper).on("click", ".remove_field", function (e) { //user click on remove text
             e.preventDefault();
@@ -241,10 +257,4 @@
         })
     });
 
-
-    //    var id = $('.animal <input').attr('id');
-    //    var paste = $(this).text();
-    //    $('#id_entrie').attr("name",id);
-    //    $('#content').val(paste);
-    //});
 </script>

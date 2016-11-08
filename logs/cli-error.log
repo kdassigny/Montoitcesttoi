@@ -1,0 +1,28 @@
+2016-10-04 15:30:02 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 La table 'montoitcesttoi.admin' n'existe pas
+Stack Trace:
+#0 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'admin', Array, Object(Cake\Database\Schema\Table))
+#1 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(64): Cake\Database\Schema\Collection->describe('admin', Array)
+#2 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Table.php(434): Cake\Database\Schema\CachedCollection->describe('admin')
+#3 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\ORM\Table.php(512): Cake\ORM\Table->schema()
+#4 C:\wamp64\www\MTCT\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(291): Cake\ORM\Table->primaryKey()
+#5 C:\wamp64\www\MTCT\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(148): Bake\Shell\Task\TemplateTask->_loadController()
+#6 [internal function]: Bake\Shell\Task\TemplateTask->main('admin')
+#7 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Console\Shell.php(466): call_user_func_array(Array, Array)
+#8 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Console\Shell.php(459): Cake\Console\Shell->runCommand(Array, false)
+#9 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Cake\Console\Shell->runCommand(Array, true, Array)
+#10 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 C:\wamp64\www\MTCT\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 C:\wamp64\www\MTCT\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2016-10-08 11:04:56 Error: [Cake\Core\Exception\MissingPluginException] Plugin Cake/Localized could not be found.
+Exception Attributes: array (
+  'plugin' => 'Cake/Localized',
+)
+Stack Trace:
+#0 C:\wamp64\www\MTCT\config\bootstrap.php(225): Cake\Core\Plugin::load('Cake/Localized')
+#1 C:\wamp64\www\MTCT\bin\cake.php(31): include('C:\\wamp64\\www\\M...')
+#2 {main}
+
+

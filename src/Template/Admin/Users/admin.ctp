@@ -5,11 +5,11 @@
             <div id="content-home" class="span12 offset1 content group">
 
                 <div class="row box-title">
-                    <div class="span4 ">
+                    <div class="span3 ">
                         <div class="border-line"></div>
                     </div>
                     <h3 class="span2 ">ADMINISTRATION MTCT</h3>
-                    <div class="span4">
+                    <div class="span3">
                         <div class="border-line"></div>
                     </div>
                 </div>
