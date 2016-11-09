@@ -54,6 +54,12 @@ background-color: #ffc7fd;
 
 .animal input {
 	margin-right: 10px;
+    margin-left: 10px;
+}
+
+.animal select {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 ul.pagination li a {
@@ -92,6 +98,7 @@ ul.pagination .disabled:hover a {
 .desc:after {
 	content: " \2191";
 }
+
 /*END MY CSS*/
 
 /* ===== TYPOGRAPHY ===== */

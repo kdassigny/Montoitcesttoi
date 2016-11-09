@@ -32,6 +32,8 @@
                                     <button class=" offset7 add_field_button btn btn-large btn-friends-and-foes-2 ">
                                         Ajouter un animal<i class="icon-plus-sign" style="font-size: 12px;"></i>
                                     </button>
+                                    <br>
+                                    <br>
                                 </div>
                             </div>
                         </div>
@@ -204,9 +206,16 @@
 <script>
     $(document).ready(function () {
 
-        function check(s) {
+        function steril(s) {
             if (s == null) {
                 s = "non stérilisé";
+            }
+            return s;
+        }
+
+        function check(s) {
+            if (s == null) {
+                s = "non defini";
             }
             return s;
         }
@@ -216,14 +225,15 @@
             var list = new Array();
 
             $('.animal').each(function (i) {
-                list.push(i +
-                    ": " + $(this).find("select").val() +
-                    " né le " + $(this).find("input:eq(1)").val() +
-                    " de sexe " + $(this).find("input:radio:checked").val() +
-                    " et " + check($(this).find("input:checkbox:checked").val()));
+
+                list.push("\n" +
+                    "- " + $(this).find("select").val() +
+                    " né le " + $(this).find("input:eq(0)").val() +
+                    " de sexe " + check($(this).find("input:radio:checked").val()) +
+                    " et " + steril($(this).find("input:checkbox:checked").val()));
             });
+
             $('#list').val(list);
-            console.log(list);
         });
 
         var max_fields = 10; //maximum input row
@@ -237,14 +247,14 @@
             if (x < max_fields) { //max input
                 x++; //row increment
                 $(wrapper).append('<div class="row">' +
-                    '<div class="span12 animal" >' +
-                    '<select> <option>Chien</option>' +
+                    '<div class="span12 animal form-inline" >' +
+                    '<label >Animal<select> <option>Chien</option>' +
                     ' <option>Chat</option>' +
                     '<option>Rongeur</option>' +
                     '<option>Oiseau</option>' +
                     '<option>Reptil</option>' +
-                    ' </select>' +
-                    '<input type="date" placeholder="Amount" value="">' +
+                    ' </select></label>' +
+                    '<label >Naissance<input class="input" type="date" placeholder="Amount" value=""></label>' +
                     '<label class="radio-inline"><input class="radio-field" type="radio" name="sexe' + x + '" value="mâle">Male</label>' +
                     '<label class="radio-inline"><input  class="radio-field" type="radio" name="sexe' + x + '" value="femelle">Femelle</label>' +
                     '<label class="checkbox-inline">' +
