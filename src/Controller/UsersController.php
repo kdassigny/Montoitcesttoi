@@ -16,7 +16,7 @@ class UsersController extends AppController
     public function beforeFilter(Event $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow('add', 'team', 'famille');
+        $this->Auth->allow('team', 'famille');
     }
     /**
      * Index method
@@ -46,9 +46,6 @@ class UsersController extends AppController
 
     public function famille()
     {
-        $this->paginate = [
-            'contain' => ['Addresses', 'Images']
-        ];
         $user = $this->Users->newEntity($this->request->data, [
             'associated' => [
                 'Addresses']
@@ -56,19 +53,18 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data, [
                 'associated' => [
-                    'Addresses']]);
+                    'Addresses']
+            ]);
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('Vos données on été sauvegardées'));
 
-                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'add', $user->id]);
+                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'addHostFamily', $user->id]);
             } else {
-                $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
+                $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer '));
             }
         }
-        $host_famillies = $this->Users->HostFamilies->find('list', ['limit' => 200]);
         $addresses = $this->Users->Addresses->find('list', ['limit' => 200]);
-        $images = $this->Users->Images->find('list', ['limit' => 200]);
-        $this->set(compact('user', 'addresses', 'images', 'host_famillies'));
+        $this->set(compact('user', 'addresses'));
         $this->set('_serialize', ['user']);
     }
 
@@ -119,7 +115,7 @@ class UsersController extends AppController
             if ($this->Users->save($user)) {
                 $this->Flash->success(__('Vos données on été sauvegardées'));
 
-                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'add', $user->id]);
+                return $this->redirect(['controller' => 'HostFamilies', 'action' => 'add', $this->request->data[id]]);
             } else {
                 $this->Flash->error(__('Vos données n\'ont pas pu etres sauvegardées, veuillez réessayer'));
             }

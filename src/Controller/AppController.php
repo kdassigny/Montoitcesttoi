@@ -68,7 +68,7 @@ class AppController extends Controller
     public function beforeFilter(Event $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow(['team', 'famille']);
+        $this->Auth->allow(['team', 'famille', 'addHostFamily']);
     }
 
     /**

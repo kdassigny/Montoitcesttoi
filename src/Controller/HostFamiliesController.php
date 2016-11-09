@@ -11,7 +11,11 @@ use App\Controller\AppController;
  */
 class HostFamiliesController extends AppController
 {
-
+//    public function beforeFilter(Event $event)
+//    {
+//        parent::beforeFilter($event);
+//        $this->Auth->allow('add');
+//    }
     /**
      * Index method
      *
@@ -50,34 +54,31 @@ class HostFamiliesController extends AppController
      *
      * @return \Cake\Network\Response|void Redirects on successful add, renders view otherwise.
      */
-    public function add($id = null)
+    public function addHostFamily($id_user = null)
     {
-//        $hostFamily = $this->HostFamilies->newEntity();
+        $hostFamily = $this->HostFamilies->newEntity();
+
         if ($this->request->is('post')) {
             $hostFamily = $this->HostFamilies->patchEntity($hostFamily, $this->request->data);
+            $hostFamily->user_id = $id_user;
+
             if ($this->HostFamilies->save($hostFamily)) {
-                $this->Flash->success(__('The host family has been saved.'));
-
-                $this->request->session()->delete('Flash');
-                $id = $hostFamily->id;
-                $hostFamily = $this->HostFamilies->get($id, [
-                    'contain' => ['Users']
-                ]);
-
-                $email = new Email('InfoFA');
-                $email->viewVars([$hostFamily]);
+                $this->Flash->success(__('Le formulaire à bien été sauvegardé'));
+//getting last data saved for this user
+                $users = $this->HostFamilies->Users->get($id_user, ['contain' => 'Addresses']);
+//send a mail with all data for this user (user,address,hostFamily)
+                $email = new Email('Infofa');
+                $email->viewVars([$hostFamily, $users]);
                 $email->from(['account@MTCT.fr' => 'MTCT'])
                     ->to('wolf.6993@hotmail.fr')
                     ->subject('Nouvelle candidature pour devenir FA')
-                    ->send($this->request->data[id]);
+                    ->send();
 
-
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['controller' => 'News', 'action' => 'index']);
             } else {
-                $this->Flash->error(__('The host family could not be saved. Please, try again.'));
+                $this->Flash->error(__('Le formulaire n\as pas pu être sauvegardé, veuillez vérifire les champs.'));
             }
         }
-//        $users = $this->HostFamilies->Users->find('list', ['limit' => 200]);
         $this->set(compact('hostFamily', 'users'));
         $this->set('_serialize', ['hostFamily']);
     }
@@ -127,5 +128,10 @@ class HostFamiliesController extends AppController
         }
 
         return $this->redirect(['action' => 'index']);
+    }
+
+    public function mail()
+    {
+        $this->viewBuilder()->layout(false);
     }
 }

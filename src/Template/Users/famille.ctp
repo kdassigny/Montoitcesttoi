@@ -30,25 +30,10 @@
                                         <div class="work-thumbnail span5">
                                             <div class="thumb-wrapper">
                                                 <div class="related_img">
-                                                    <div class="picture_overlay">
+                                                    <div>
                                                         <?= $this->html->image("mes_images/Logo_MTCT_black.png", [
                                                             "class" => "attachment-section_portfolio",
                                                             'width'=>"400", 'max-height'=>"350px"]);?>
-
-                                                        <div class="overlay">
-                                                            <div>
-                                                                <p>
-                                                                    <a href="images/portfolios/0411.jpg" rel="lightbox"
-                                                                       class="ch-info-lightbox">
-                                                                        <?= $this->html->image("icons/zoom.png", [
-                                                                            'alt'=>"Open Lightbox"]);?>
-                                                                    </a>
-
-                                                                </p>
-                                                                <p class="title">titre image</p>
-                                                                <p class="subtitle">logo design</p>
-                                                            </div>
-                                                        </div>
                                                         <!-- end overlay -->
                                                     </div>
                                                 </div>
@@ -82,7 +67,7 @@
                                 <!-- span wrapper -->
                                 <div class="row">
                                     <div class="col-10 offset2">
-                                        <?= $this->Form->create($user) ?>
+                                        <?= $this->Form->create($user, ['url' => ['action' => 'famille']]) ?>
                                         <fieldset>
 
                                             <div class="row">
@@ -90,7 +75,7 @@
                                                     <label>Nom</label>
                                                     <?php echo $this->Form->input('last_name', ["label" => false]); ?>
                                                     <label>Prenom</label>
-                                                    <?php echo $this->Form->input('fisrt_name', ["label" => false]); ?>
+                                                    <?php echo $this->Form->input('first_name', ["label" => false]); ?>
                                                     <label></label>
                                                     <?php echo $this->Form->hidden('is_admin', ['value' => '0']); ?>
                                                     <label></label>

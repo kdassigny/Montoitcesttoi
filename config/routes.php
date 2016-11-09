@@ -97,7 +97,7 @@ Router::connect('/equipe', ['controller' => 'Users', 'action' => 'team']);
 Router::connect('/contact', ['controller' => 'Contact', 'action' => 'contact']);
 
 Router::connect('/famille', ['controller' => 'Users', 'action' => 'famille']);
-Router::connect('/formulaire', ['controller' => 'HostFamilies', 'action' => 'add']);
+Router::connect('/formulaire/*', ['controller' => 'HostFamilies', 'action' => 'addHostFamily']);
 Router::connect('/login', ['controller' => 'Users', 'action' => 'login']);
 Router::connect('/admin', ['controller' => 'Users', 'action' => 'admin']);
 
